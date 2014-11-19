@@ -32,6 +32,7 @@ namespace VideoGameSemester
 
         public TitleScreen TitleScreen;
         public StartMenuScreen StartMenuScreen;
+        public GamePlayScreen GamePlayScreen;
 
         #endregion
 
@@ -65,7 +66,8 @@ namespace VideoGameSemester
             Components.Add(stateManager);
 
             TitleScreen = new TitleScreen(this, stateManager);
-            StartMenuScreen = new GameScreens.StartMenuScreen(this, stateManager);
+            StartMenuScreen = new StartMenuScreen(this, stateManager);
+            GamePlayScreen = new GamePlayScreen(this, stateManager);
 
             stateManager.ChangeState(TitleScreen);
         }

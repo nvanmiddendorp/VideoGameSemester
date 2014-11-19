@@ -35,7 +35,7 @@ namespace VideoGameSemester.GameScreens
         {
             ContentManager Content = GameRef.Content;
 
-            backgroundImage = Content.Load<Texture2D>(@"Backgrounds\titlescreen");
+            backgroundImage = Content.Load<Texture2D>(@"Backgrounds\Resources\volcano");
 
             base.LoadContent();
 
@@ -51,9 +51,8 @@ namespace VideoGameSemester.GameScreens
             titleLabel.Position = new Vector2(235, 200);
             titleLabel.Text = "TOTALLY NOT A FINAL FANTASY RIPOFF!";
             titleLabel.Color = Color.White;
-            titleLabel.TabStop = true;
-            titleLabel.HasFocus = true;
-            titleLabel.Selected += new EventHandler(startLabel_Selected);
+            titleLabel.TabStop = false;
+            titleLabel.HasFocus = false;
 
             ControlManager.Add(startLabel);
             ControlManager.Add(titleLabel);
