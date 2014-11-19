@@ -31,6 +31,7 @@ namespace VideoGameSemester
         GameStateManager stateManager;
 
         public TitleScreen TitleScreen;
+        public StartMenuScreen StartMenuScreen;
 
         #endregion
 
@@ -50,7 +51,11 @@ namespace VideoGameSemester
             graphics.PreferredBackBufferWidth = screenWidth;
             graphics.PreferredBackBufferHeight = screenHeight;
 
-            ScreenRectangle = new Rectangle(0, 0, screenWidth, screenHeight);
+            ScreenRectangle = new Rectangle(
+                0,
+                0,
+                screenWidth,
+                screenHeight);
 
             Content.RootDirectory = "Content";
 
@@ -60,6 +65,8 @@ namespace VideoGameSemester
             Components.Add(stateManager);
 
             TitleScreen = new TitleScreen(this, stateManager);
+            StartMenuScreen = new GameScreens.StartMenuScreen(this, stateManager);
+
             stateManager.ChangeState(TitleScreen);
         }
 
