@@ -8,6 +8,9 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using FunctionalityLib;
+using VideoGameSemester.GameScreens;
+
 
 namespace VideoGameSemester
 {
@@ -16,13 +19,48 @@ namespace VideoGameSemester
     /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+        #region XNA Field Region
+
         GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
+        public SpriteBatch SpriteBatch;
+
+        #endregion
+
+        #region Game State Region
+
+        GameStateManager stateManager;
+
+        public TitleScreen TitleScreen;
+
+        #endregion
+
+        #region Screen Field Region
+
+        const int screenWidth = 1024;
+        const int screenHeight = 768;
+
+        public readonly Rectangle ScreenRectangle;
+
+        #endregion
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+
+            graphics.PreferredBackBufferWidth = screenWidth;
+            graphics.PreferredBackBufferHeight = screenHeight;
+
+            ScreenRectangle = new Rectangle(0, 0, screenWidth, screenHeight);
+
             Content.RootDirectory = "Content";
+
+            Components.Add(new InputHandler(this));
+
+            stateManager = new GameStateManager(this);
+            Components.Add(stateManager);
+
+            TitleScreen = new TitleScreen(this, stateManager);
+            stateManager.ChangeState(TitleScreen);
         }
 
         /// <summary>
@@ -45,7 +83,7 @@ namespace VideoGameSemester
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+            SpriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
         }
@@ -81,7 +119,7 @@ namespace VideoGameSemester
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
 
