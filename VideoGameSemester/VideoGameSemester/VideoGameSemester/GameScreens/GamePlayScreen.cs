@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using FunctionalityLib;
 using FunctionalityLib.TileEngine;
+using VideoGameSemester.Components;
 
 namespace VideoGameSemester.GameScreens
 {
@@ -15,8 +16,8 @@ namespace VideoGameSemester.GameScreens
         #region Field Region
 
         Engine engine = new Engine(32, 32);
-        Tileset tileset;
         TileMap map;
+        Player player;
 
         #endregion
 
@@ -28,6 +29,7 @@ namespace VideoGameSemester.GameScreens
         public GamePlayScreen(Game game, GameStateManager manager)
             : base(game, manager)
         {
+            player = new Player(game);
         }
 
         #endregion
@@ -41,35 +43,79 @@ namespace VideoGameSemester.GameScreens
 
         protected override void LoadContent()
         {
+            base.LoadContent();
+
             Texture2D tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Dungeon_A2");
-            tileset = new Tileset(tilesetTexture, 8, 8, 32, 32);
+            Tileset tileset1 = new Tileset(tilesetTexture, 8, 8, 32, 32);
+
+            tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A1");
+            Tileset tileset2 = new Tileset(tilesetTexture, 8, 8, 32, 32);
+
+            List<Tileset> tilesets = new List<Tileset>();
+            tilesets.Add(tileset1);
+            tilesets.Add(tileset2);
 
             MapLayer layer = new MapLayer(40, 40);
 
-            for (int y = 0; y < layer.Height;  y++)
+            for (int y = 0; y < layer.Height; y++)
             {
-                for(int x = 0; x < layer.Width; x++)
+                for (int x = 0; x < layer.Width; x++)
                 {
                     Tile tile = new Tile(0, 0);
+
                     layer.SetTile(x, y, tile);
                 }
             }
 
-            map = new TileMap(tileset, layer);
+            MapLayer splatter = new MapLayer(40, 40);
 
-            base.LoadContent();
+            Random random = new Random();
+
+            for (int i = 0; i < 80; i++)
+            {
+                int x = random.Next(0, 40);
+                int y = random.Next(0, 40);
+                int index = random.Next(2, 14);
+
+                Tile tile = new Tile(index, 0);
+                splatter.SetTile(x, y, tile);
+            }
+
+            //setTile(position on screen, x, new Tile(horizonal position on tileset, vertical positon on the tileset)
+            //this currently doesn't work for our tilesets, need to fix
+            splatter.SetTile(1, 0, new Tile(0, 1));
+            splatter.SetTile(2, 0, new Tile(2, 1));
+            splatter.SetTile(3, 0, new Tile(0, 1));
+
+            List<MapLayer> mapLayers = new List<MapLayer>();
+            mapLayers.Add(layer);
+            mapLayers.Add(splatter);
+
+            map = new TileMap(tilesets, mapLayers);
         }
 
         public override void Update(GameTime gameTime)
         {
+            player.Update(gameTime);
+
             base.Update(gameTime);
         }
 
         public override void Draw(GameTime gameTime)
         {
-            GameRef.SpriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointClamp, null, null, null, Matrix.Identity);
-            map.Draw(GameRef.SpriteBatch);
+            GameRef.SpriteBatch.Begin(
+                SpriteSortMode.Immediate,
+                BlendState.AlphaBlend,
+                SamplerState.PointClamp,
+                null,
+                null,
+                null,
+                Matrix.Identity);
+
+            map.Draw(GameRef.SpriteBatch, player.Camera);
+
             base.Draw(gameTime);
+
             GameRef.SpriteBatch.End();
         }
 
