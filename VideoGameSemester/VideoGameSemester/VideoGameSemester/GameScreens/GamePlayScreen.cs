@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using FunctionalityLib;
 using FunctionalityLib.TileEngine;
+using FunctionalityLib.SpriteClasses;
 using VideoGameSemester.Components;
 
 namespace VideoGameSemester.GameScreens
@@ -18,6 +19,7 @@ namespace VideoGameSemester.GameScreens
         Engine engine = new Engine(32, 32);
         TileMap map;
         Player player;
+        AnimatedSprite sprite;
 
         #endregion
 
@@ -43,6 +45,23 @@ namespace VideoGameSemester.GameScreens
 
         protected override void LoadContent()
         {
+            Texture2D spriteSheet = Game.Content.Load<Texture2D>(@"PlayerSprites\Actor1");
+            Dictionary<AnimationKey, Animation> animations = new Dictionary<AnimationKey, Animation>();
+
+            Animation animation = new Animation(3, 32, 32, 0, 0);
+            animations.Add(AnimationKey.Down, animation);
+
+            animation = new Animation(3, 32, 32, 0, 32);
+            animations.Add(AnimationKey.Left, animation);
+
+            animation = new Animation(3, 32, 32, 0, 64);
+            animations.Add(AnimationKey.Right, animation);
+
+            animation = new Animation(3, 32, 32, 0, 96);
+            animations.Add(AnimationKey.Up, animation);
+
+            sprite = new AnimatedSprite(spriteSheet, animations);
+
             base.LoadContent();
 
             Texture2D tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Dungeon_A2");
@@ -97,6 +116,67 @@ namespace VideoGameSemester.GameScreens
         public override void Update(GameTime gameTime)
         {
             player.Update(gameTime);
+            sprite.Update(gameTime);
+
+            Vector2 motion = new Vector2();
+
+            if (InputHandler.KeyDown(Keys.W))
+            {
+                sprite.CurrentAnimation = AnimationKey.Up;
+                motion.Y = -1;
+            }
+            else if (InputHandler.KeyDown(Keys.S))
+            {
+                sprite.CurrentAnimation = AnimationKey.Down;
+                motion.Y = 1;
+            }
+
+            if (InputHandler.KeyDown(Keys.A))
+            {
+                sprite.CurrentAnimation = AnimationKey.Left;
+                motion.X = -1;
+            }
+            else if (InputHandler.KeyDown(Keys.D))
+            {
+                sprite.CurrentAnimation = AnimationKey.Right;
+                motion.X = 1;
+            }
+
+            if (motion != Vector2.Zero)
+            {
+                sprite.IsAnimating = true;
+                motion.Normalize();
+
+                sprite.Position += motion * sprite.Speed;
+                sprite.LockToMap();
+
+                if (player.Camera.CameraMode == CameraMode.Follow)
+                    player.Camera.LockToSprite(sprite);
+            }
+            else
+            {
+                sprite.IsAnimating = false;
+            }
+            
+            /*
+             * 
+            I don't think I want this to be a  feature in the game, commenting it out, will decide later
+            
+            if (InputHandler.KeyReleased(Keys.F))
+            {
+                player.Camera.ToggleCameraMode();
+                if (player.Camera.CameraMode == CameraMode.Follow)
+                    player.Camera.LockToSprite(sprite);
+            }
+
+            if (player.Camera.CameraMode != CameraMode.Follow)
+            {
+                if (InputHandler.KeyReleased(Keys.C))
+                {
+                    player.Camera.LockToSprite(sprite);
+                }
+            }
+            */
 
             base.Update(gameTime);
         }
@@ -113,6 +193,7 @@ namespace VideoGameSemester.GameScreens
                 Matrix.Identity);
 
             map.Draw(GameRef.SpriteBatch, player.Camera);
+            sprite.Draw(gameTime, GameRef.SpriteBatch, player.Camera);
 
             base.Draw(gameTime);
 
