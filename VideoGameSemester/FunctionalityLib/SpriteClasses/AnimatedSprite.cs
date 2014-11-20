@@ -101,7 +101,7 @@ namespace FunctionalityLib.SpriteClasses
         {
             spriteBatch.Draw(
                 texture,
-                position - camera.Position,
+                position,
                 animations[currentAnimation].CurrentFrameRect,
                 Color.White);
         }

@@ -46,6 +46,7 @@ namespace VideoGameSemester.GameScreens
         protected override void LoadContent()
         {
             Texture2D spriteSheet = Game.Content.Load<Texture2D>(@"PlayerSprites\Actor1");
+
             Dictionary<AnimationKey, Animation> animations = new Dictionary<AnimationKey, Animation>();
 
             Animation animation = new Animation(3, 32, 32, 0, 0);
@@ -64,7 +65,7 @@ namespace VideoGameSemester.GameScreens
 
             base.LoadContent();
 
-            Texture2D tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Dungeon_A2");
+            Texture2D tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A2");
             Tileset tileset1 = new Tileset(tilesetTexture, 8, 8, 32, 32);
 
             tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A1");
@@ -74,7 +75,7 @@ namespace VideoGameSemester.GameScreens
             tilesets.Add(tileset1);
             tilesets.Add(tileset2);
 
-            MapLayer layer = new MapLayer(40, 40);
+            MapLayer layer = new MapLayer(100, 100);
 
             for (int y = 0; y < layer.Height; y++)
             {
@@ -86,22 +87,20 @@ namespace VideoGameSemester.GameScreens
                 }
             }
 
-            MapLayer splatter = new MapLayer(40, 40);
+            MapLayer splatter = new MapLayer(100, 100);
 
             Random random = new Random();
 
-            for (int i = 0; i < 80; i++)
+            for (int i = 0; i < 100; i++)
             {
-                int x = random.Next(0, 40);
-                int y = random.Next(0, 40);
+                int x = random.Next(0, 100);
+                int y = random.Next(0, 100);
                 int index = random.Next(2, 14);
 
                 Tile tile = new Tile(index, 0);
                 splatter.SetTile(x, y, tile);
             }
 
-            //setTile(position on screen, x, new Tile(horizonal position on tileset, vertical positon on the tileset)
-            //this currently doesn't work for our tilesets, need to fix
             splatter.SetTile(1, 0, new Tile(0, 1));
             splatter.SetTile(2, 0, new Tile(2, 1));
             splatter.SetTile(3, 0, new Tile(0, 1));
@@ -117,6 +116,19 @@ namespace VideoGameSemester.GameScreens
         {
             player.Update(gameTime);
             sprite.Update(gameTime);
+
+            if (InputHandler.KeyReleased(Keys.PageUp))
+            {
+                player.Camera.ZoomIn();
+                if (player.Camera.CameraMode == CameraMode.Follow)
+                    player.Camera.LockToSprite(sprite);
+            }
+            else if (InputHandler.KeyReleased(Keys.PageDown))
+            {
+                player.Camera.ZoomOut();
+                if (player.Camera.CameraMode == CameraMode.Follow)
+                    player.Camera.LockToSprite(sprite);
+            }
 
             Vector2 motion = new Vector2();
 
@@ -157,11 +169,8 @@ namespace VideoGameSemester.GameScreens
             {
                 sprite.IsAnimating = false;
             }
-            
+
             /*
-             * 
-            I don't think I want this to be a  feature in the game, commenting it out, will decide later
-            
             if (InputHandler.KeyReleased(Keys.F))
             {
                 player.Camera.ToggleCameraMode();
@@ -184,13 +193,13 @@ namespace VideoGameSemester.GameScreens
         public override void Draw(GameTime gameTime)
         {
             GameRef.SpriteBatch.Begin(
-                SpriteSortMode.Immediate,
+                SpriteSortMode.Deferred,
                 BlendState.AlphaBlend,
                 SamplerState.PointClamp,
                 null,
                 null,
                 null,
-                Matrix.Identity);
+                player.Camera.Transformation);
 
             map.Draw(GameRef.SpriteBatch, player.Camera);
             sprite.Draw(gameTime, GameRef.SpriteBatch, player.Camera);
@@ -206,3 +215,4 @@ namespace VideoGameSemester.GameScreens
         #endregion
     }
 }
+

@@ -79,11 +79,12 @@ namespace FunctionalityLib.TileEngine
             Rectangle destination = new Rectangle(0, 0, Engine.TileWidth, Engine.TileHeight);
             Tile tile;
 
+
             foreach (MapLayer layer in mapLayers)
             {
                 for (int y = 0; y < layer.Height; y++)
                 {
-                    destination.Y = y * Engine.TileHeight - (int)camera.Position.Y;
+                    destination.Y = y * Engine.TileHeight;
 
                     for (int x = 0; x < layer.Width; x++)
                     {
@@ -92,7 +93,7 @@ namespace FunctionalityLib.TileEngine
                         if (tile.TileIndex == -1 || tile.Tileset == -1)
                             continue;
 
-                        destination.X = x * Engine.TileWidth - (int)camera.Position.X;
+                        destination.X = x * Engine.TileWidth;
 
                         spriteBatch.Draw(
                             tilesets[tile.Tileset].Texture,

@@ -50,6 +50,27 @@ namespace FunctionalityLib.TileEngine
             get { return mode; }
         }
 
+        public Matrix Transformation
+        {
+            get
+            {
+                return Matrix.CreateScale(zoom) *
+                    Matrix.CreateTranslation(new Vector3(-Position, 0f));
+            }
+        }
+
+        public Rectangle ViewportRectangle
+        {
+            get
+            {
+                return new Rectangle(
+                    viewportRectangle.X,
+                    viewportRectangle.Y,
+                    viewportRectangle.Width,
+                    viewportRectangle.Height);
+            }
+        }
+
         #endregion
 
         #region Constructor Region
@@ -98,23 +119,53 @@ namespace FunctionalityLib.TileEngine
                 position += motion * speed;
                 LockCamera();
             }
+
+        }
+
+        public void ZoomIn()
+        {
+            zoom += .25f;
+
+            if (zoom > 2.5f)
+                zoom = 2.5f;
+
+            Vector2 newPosition = Position * zoom;
+            SnapToPosition(newPosition);
+        }
+
+        public void ZoomOut()
+        {
+            zoom -= .25f;
+
+            if (zoom < .5f)
+                zoom = .5f;
+
+            Vector2 newPosition = Position * zoom;
+            SnapToPosition(newPosition);
+        }
+
+        private void SnapToPosition(Vector2 newPosition)
+        {
+            position.X = newPosition.X - viewportRectangle.Width / 2;
+            position.Y = newPosition.Y - viewportRectangle.Height / 2;
+            LockCamera();
         }
 
         private void LockCamera()
         {
             position.X = MathHelper.Clamp(position.X,
                 0,
-                TileMap.WidthInPixels - viewportRectangle.Width);
+                TileMap.WidthInPixels * zoom - viewportRectangle.Width);
             position.Y = MathHelper.Clamp(position.Y,
                 0,
-                TileMap.HeightInPixels - viewportRectangle.Height);
+                TileMap.HeightInPixels * zoom - viewportRectangle.Height);
         }
 
         public void LockToSprite(AnimatedSprite sprite)
         {
-            position.X = sprite.Position.X + sprite.Width / 2
+            position.X = (sprite.Position.X + sprite.Width / 2) * zoom
                             - (viewportRectangle.Width / 2);
-            position.Y = sprite.Position.Y + sprite.Height / 2
+            position.Y = (sprite.Position.Y + sprite.Height / 2) * zoom
                             - (viewportRectangle.Height / 2);
             LockCamera();
         }
@@ -130,4 +181,3 @@ namespace FunctionalityLib.TileEngine
         #endregion
     }
 }
-

@@ -158,7 +158,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tilesets\Dungeon_A2.png">
+    <Compile Include="Tilesets\Resources\Dungeon_A2.png">
       <Name>Dungeon_A2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>

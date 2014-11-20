@@ -1,0 +1,6 @@
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\bin\x86\Debug\FunctionalityLib.dll
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\bin\x86\Debug\FunctionalityLib.pdb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\obj\x86\Debug\FunctionalityLib.dll
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\obj\x86\Debug\FunctionalityLib.pdb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\obj\x86\Debug\FunctionalityLib.csprojResolveAssemblyReference.cache
