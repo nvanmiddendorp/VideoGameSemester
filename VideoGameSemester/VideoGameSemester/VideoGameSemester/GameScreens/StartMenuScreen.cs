@@ -50,21 +50,9 @@ namespace VideoGameSemester.GameScreens
             ContentManager Content = Game.Content;
 
             backgroundImage = new PictureBox(
-                Content.Load<Texture2D>(@"Backgrounds\Resources\volcano"),
+                Content.Load<Texture2D>(@"Backgrounds\Resources\Volcano"),
                 GameRef.ScreenRectangle);
             ControlManager.Add(backgroundImage);
-
-            Texture2D arrowTexture = Content.Load<Texture2D>(@"GUI\rightarrowUp");
-
-            arrowImage = new PictureBox(
-                arrowTexture,
-                new Rectangle(
-                    0,
-                    0,
-                    arrowTexture.Width,
-                    arrowTexture.Height));
-
-            ControlManager.Add(arrowImage);
 
             titleLabel = new Label();
             titleLabel.Position = new Vector2(235, 200);
@@ -74,6 +62,17 @@ namespace VideoGameSemester.GameScreens
             titleLabel.HasFocus = false;
 
             ControlManager.Add(titleLabel);
+
+            Texture2D arrowTexture = Content.Load<Texture2D>(@"GUI\leftarrowUp");
+
+            arrowImage = new PictureBox(
+                arrowTexture,
+                new Rectangle(
+                    0,
+                    0,
+                    arrowTexture.Width,
+                    arrowTexture.Height));
+            ControlManager.Add(arrowImage);
 
             startGame = new LinkLabel();
             startGame.Text = "The story begins";
@@ -112,7 +111,7 @@ namespace VideoGameSemester.GameScreens
         void ControlManager_FocusChanged(object sender, EventArgs e)
         {
             Control control = sender as Control;
-            Vector2 position = new Vector2(control.Position.X - 40f, control.Position.Y + 5f);
+            Vector2 position = new Vector2(control.Position.X + maxItemWidth + 10f, control.Position.Y);
             arrowImage.SetPosition(position);
         }
 
@@ -120,7 +119,7 @@ namespace VideoGameSemester.GameScreens
         {
             if (sender == startGame)
             {
-                StateManager.PushState(GameRef.GamePlayScreen);
+                StateManager.PushState(GameRef.CharacterGeneratorScreen);
             }
 
             if (sender == exitGame)

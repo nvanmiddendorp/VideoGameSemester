@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.Input;
 using FunctionalityLib;
 using FunctionalityLib.TileEngine;
 using FunctionalityLib.SpriteClasses;
+using FunctionalityLib.WorldClasses;
 using VideoGameSemester.Components;
 
 namespace VideoGameSemester.GameScreens
@@ -17,13 +18,25 @@ namespace VideoGameSemester.GameScreens
         #region Field Region
 
         Engine engine = new Engine(32, 32);
-        TileMap map;
-        Player player;
-        AnimatedSprite sprite;
+        static Player player;
+        static World world;
 
         #endregion
 
         #region Property Region
+
+        public static World World
+        {
+            get { return world; }
+            set { world = value; }
+        }
+
+        public static Player Player
+        {
+            get { return player; }
+            set { player = value; }
+        }
+
         #endregion
 
         #region Constructor Region
@@ -31,7 +44,6 @@ namespace VideoGameSemester.GameScreens
         public GamePlayScreen(Game game, GameStateManager manager)
             : base(game, manager)
         {
-            player = new Player(game);
         }
 
         #endregion
@@ -45,147 +57,14 @@ namespace VideoGameSemester.GameScreens
 
         protected override void LoadContent()
         {
-            Texture2D spriteSheet = Game.Content.Load<Texture2D>(@"PlayerSprites\Actor1");
-
-            Dictionary<AnimationKey, Animation> animations = new Dictionary<AnimationKey, Animation>();
-
-            Animation animation = new Animation(3, 32, 32, 0, 0);
-            animations.Add(AnimationKey.Down, animation);
-
-            animation = new Animation(3, 32, 32, 0, 32);
-            animations.Add(AnimationKey.Left, animation);
-
-            animation = new Animation(3, 32, 32, 0, 64);
-            animations.Add(AnimationKey.Right, animation);
-
-            animation = new Animation(3, 32, 32, 0, 96);
-            animations.Add(AnimationKey.Up, animation);
-
-            sprite = new AnimatedSprite(spriteSheet, animations);
-
             base.LoadContent();
 
-            Texture2D tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A2");
-            Tileset tileset1 = new Tileset(tilesetTexture, 8, 8, 32, 32);
-
-            tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A1");
-            Tileset tileset2 = new Tileset(tilesetTexture, 8, 8, 32, 32);
-
-            List<Tileset> tilesets = new List<Tileset>();
-            tilesets.Add(tileset1);
-            tilesets.Add(tileset2);
-
-            MapLayer layer = new MapLayer(100, 100);
-
-            for (int y = 0; y < layer.Height; y++)
-            {
-                for (int x = 0; x < layer.Width; x++)
-                {
-                    Tile tile = new Tile(0, 0);
-
-                    layer.SetTile(x, y, tile);
-                }
-            }
-
-            MapLayer splatter = new MapLayer(100, 100);
-
-            Random random = new Random();
-
-            for (int i = 0; i < 100; i++)
-            {
-                int x = random.Next(0, 100);
-                int y = random.Next(0, 100);
-                int index = random.Next(2, 14);
-
-                Tile tile = new Tile(index, 0);
-                splatter.SetTile(x, y, tile);
-            }
-
-            splatter.SetTile(1, 0, new Tile(0, 1));
-            splatter.SetTile(2, 0, new Tile(2, 1));
-            splatter.SetTile(3, 0, new Tile(0, 1));
-
-            List<MapLayer> mapLayers = new List<MapLayer>();
-            mapLayers.Add(layer);
-            mapLayers.Add(splatter);
-
-            map = new TileMap(tilesets, mapLayers);
         }
 
         public override void Update(GameTime gameTime)
         {
+            world.Update(gameTime);
             player.Update(gameTime);
-            sprite.Update(gameTime);
-
-            if (InputHandler.KeyReleased(Keys.PageUp))
-            {
-                player.Camera.ZoomIn();
-                if (player.Camera.CameraMode == CameraMode.Follow)
-                    player.Camera.LockToSprite(sprite);
-            }
-            else if (InputHandler.KeyReleased(Keys.PageDown))
-            {
-                player.Camera.ZoomOut();
-                if (player.Camera.CameraMode == CameraMode.Follow)
-                    player.Camera.LockToSprite(sprite);
-            }
-
-            Vector2 motion = new Vector2();
-
-            if (InputHandler.KeyDown(Keys.W))
-            {
-                sprite.CurrentAnimation = AnimationKey.Up;
-                motion.Y = -1;
-            }
-            else if (InputHandler.KeyDown(Keys.S))
-            {
-                sprite.CurrentAnimation = AnimationKey.Down;
-                motion.Y = 1;
-            }
-
-            if (InputHandler.KeyDown(Keys.A))
-            {
-                sprite.CurrentAnimation = AnimationKey.Left;
-                motion.X = -1;
-            }
-            else if (InputHandler.KeyDown(Keys.D))
-            {
-                sprite.CurrentAnimation = AnimationKey.Right;
-                motion.X = 1;
-            }
-
-            if (motion != Vector2.Zero)
-            {
-                sprite.IsAnimating = true;
-                motion.Normalize();
-
-                sprite.Position += motion * sprite.Speed;
-                sprite.LockToMap();
-
-                if (player.Camera.CameraMode == CameraMode.Follow)
-                    player.Camera.LockToSprite(sprite);
-            }
-            else
-            {
-                sprite.IsAnimating = false;
-            }
-
-            /*
-            if (InputHandler.KeyReleased(Keys.F))
-            {
-                player.Camera.ToggleCameraMode();
-                if (player.Camera.CameraMode == CameraMode.Follow)
-                    player.Camera.LockToSprite(sprite);
-            }
-
-            if (player.Camera.CameraMode != CameraMode.Follow)
-            {
-                if (InputHandler.KeyReleased(Keys.C))
-                {
-                    player.Camera.LockToSprite(sprite);
-                }
-            }
-            */
 
             base.Update(gameTime);
         }
@@ -201,10 +80,10 @@ namespace VideoGameSemester.GameScreens
                 null,
                 player.Camera.Transformation);
 
-            map.Draw(GameRef.SpriteBatch, player.Camera);
-            sprite.Draw(gameTime, GameRef.SpriteBatch, player.Camera);
-
             base.Draw(gameTime);
+
+            world.DrawLevel(GameRef.SpriteBatch, player.Camera);
+            player.Draw(gameTime, GameRef.SpriteBatch);
 
             GameRef.SpriteBatch.End();
         }
@@ -215,4 +94,5 @@ namespace VideoGameSemester.GameScreens
         #endregion
     }
 }
+
 

@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using FunctionalityLib;
 using FunctionalityLib.TileEngine;
+using FunctionalityLib.SpriteClasses;
 
 namespace VideoGameSemester.Components
 {
@@ -16,6 +17,7 @@ namespace VideoGameSemester.Components
 
         Camera camera;
         Game1 gameRef;
+        readonly AnimatedSprite sprite;
 
         #endregion
 
@@ -27,14 +29,20 @@ namespace VideoGameSemester.Components
             set { camera = value; }
         }
 
+        public AnimatedSprite Sprite
+        {
+            get { return sprite; }
+        }
+
         #endregion
 
         #region Constructor Region
 
-        public Player(Game game)
+        public Player(Game game, AnimatedSprite sprite)
         {
             gameRef = (Game1)game;
             camera = new Camera(gameRef.ScreenRectangle);
+            this.sprite = sprite;
         }
 
         #endregion
@@ -44,10 +52,82 @@ namespace VideoGameSemester.Components
         public void Update(GameTime gameTime)
         {
             camera.Update(gameTime);
+            sprite.Update(gameTime);
+
+            if (InputHandler.KeyReleased(Keys.PageUp))
+            {
+                camera.ZoomIn();
+                if (camera.CameraMode == CameraMode.Follow)
+                    camera.LockToSprite(sprite);
+            }
+            else if (InputHandler.KeyReleased(Keys.PageDown))
+            {
+                camera.ZoomOut();
+                if (camera.CameraMode == CameraMode.Follow)
+                    camera.LockToSprite(sprite);
+            }
+
+            Vector2 motion = new Vector2();
+
+            if (InputHandler.KeyDown(Keys.W))
+            {
+                sprite.CurrentAnimation = AnimationKey.Up;
+                motion.Y = -1;
+            }
+            else if (InputHandler.KeyDown(Keys.S))
+            {
+                sprite.CurrentAnimation = AnimationKey.Down;
+                motion.Y = 1;
+            }
+
+            if (InputHandler.KeyDown(Keys.A))
+            {
+                sprite.CurrentAnimation = AnimationKey.Left;
+                motion.X = -1;
+            }
+            else if (InputHandler.KeyDown(Keys.D))
+            {
+                sprite.CurrentAnimation = AnimationKey.Right;
+                motion.X = 1;
+            }
+
+            if (motion != Vector2.Zero)
+            {
+                sprite.IsAnimating = true;
+                motion.Normalize();
+
+                sprite.Position += motion * sprite.Speed;
+                sprite.LockToMap();
+
+                if (camera.CameraMode == CameraMode.Follow)
+                    camera.LockToSprite(sprite);
+            }
+            else
+            {
+                sprite.IsAnimating = false;
+            }
+
+            /*
+            if (InputHandler.KeyReleased(Keys.F))
+            {
+                camera.ToggleCameraMode();
+                if (camera.CameraMode == CameraMode.Follow)
+                    camera.LockToSprite(sprite);
+            }
+
+            if (camera.CameraMode != CameraMode.Follow)
+            {
+                if (InputHandler.KeyReleased(Keys.C))
+                {
+                    camera.LockToSprite(sprite);
+                }
+            }
+            */
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
+            sprite.Draw(gameTime, spriteBatch, camera);
         }
 
         #endregion

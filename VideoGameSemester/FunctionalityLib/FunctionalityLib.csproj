@@ -64,6 +64,7 @@
     <Compile Include="Controls\Label.cs" />
     <Compile Include="Controls\LeftRightSelector.cs" />
     <Compile Include="Controls\LinkLabel.cs" />
+    <Compile Include="Controls\ListBox.cs" />
     <Compile Include="Controls\PictureBox.cs" />
     <Compile Include="GameState.cs" />
     <Compile Include="GameStateManager.cs" />
@@ -77,8 +78,15 @@
     <Compile Include="TileEngine\Tile.cs" />
     <Compile Include="TileEngine\TileMap.cs" />
     <Compile Include="TileEngine\Tileset.cs" />
+    <Compile Include="WorldClasses\Level.cs" />
+    <Compile Include="WorldClasses\World.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\GameLib\GameLib.csproj">
+      <Project>{dc956729-44ce-425e-bf79-ee924b7fd6b3}</Project>
+      <Name>GameLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
   <!--

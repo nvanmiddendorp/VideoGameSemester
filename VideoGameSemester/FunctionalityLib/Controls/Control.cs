@@ -69,7 +69,7 @@ namespace FunctionalityLib.Controls
             set { this.value = value; }
         }
 
-        public bool HasFocus
+        public virtual bool HasFocus
         {
             get { return hasFocus; }
             set { hasFocus = value; }

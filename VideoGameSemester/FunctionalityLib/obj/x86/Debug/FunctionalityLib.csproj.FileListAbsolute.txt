@@ -4,3 +4,5 @@ C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\Functionality
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\obj\x86\Debug\FunctionalityLib.dll
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\obj\x86\Debug\FunctionalityLib.pdb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\obj\x86\Debug\FunctionalityLib.csprojResolveAssemblyReference.cache
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\bin\x86\Debug\GameLib.dll
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\bin\x86\Debug\GameLib.pdb

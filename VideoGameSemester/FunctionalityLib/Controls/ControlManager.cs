@@ -13,12 +13,19 @@ namespace FunctionalityLib.Controls
         #region Fields and Properties
 
         int selectedControl = 0;
+        bool acceptInput = true;
 
         static SpriteFont spriteFont;
 
         public static SpriteFont SpriteFont
         {
             get { return spriteFont; }
+        }
+
+        public bool AcceptInput
+        {
+            get { return acceptInput; }
+            set { acceptInput = value; }
         }
 
         #endregion
@@ -62,10 +69,19 @@ namespace FunctionalityLib.Controls
             {
                 if (c.Enabled)
                     c.Update(gameTime);
-
-                if (c.HasFocus)
-                    c.HandleInput(playerIndex);
             }
+
+            foreach (Control c in this)
+            {
+                if (c.HasFocus)
+                {
+                    c.HandleInput(playerIndex);
+                    break;
+                }
+            }
+
+            if (!AcceptInput)
+                return;
 
             if (InputHandler.KeyPressed(Keys.Up))
                 PreviousControl();
