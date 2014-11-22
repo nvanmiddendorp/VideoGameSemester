@@ -20,6 +20,15 @@ namespace VideoGameSemester.GameScreens
 
         protected PlayerIndex playerIndexInControl;
 
+        protected BaseGameState TransitionTo;
+
+        protected bool Transitioning;
+
+        protected ChangeType changeType;
+
+        protected TimeSpan transitionTimer;
+        protected TimeSpan transitionInterval = TimeSpan.FromSeconds(0.5);
+
         #endregion
 
         #region Properties region
@@ -39,6 +48,11 @@ namespace VideoGameSemester.GameScreens
 
         #region XNA Method Region
 
+        public override void Initialize()
+        {
+            base.Initialize();
+        }
+
         protected override void LoadContent()
         {
             ContentManager Content = Game.Content;
@@ -51,6 +65,28 @@ namespace VideoGameSemester.GameScreens
 
         public override void Update(GameTime gameTime)
         {
+            if (Transitioning)
+            {
+                transitionTimer += gameTime.ElapsedGameTime;
+
+                if (transitionTimer >= transitionInterval)
+                {
+                    Transitioning = false;
+                    switch (changeType)
+                    {
+                        case ChangeType.Change:
+                            StateManager.ChangeState(TransitionTo);
+                            break;
+                        case ChangeType.Pop:
+                            StateManager.PopState();
+                            break;
+                        case ChangeType.Push:
+                            StateManager.PushState(TransitionTo);
+                            break;
+                    }
+                }
+            }
+
             base.Update(gameTime);
         }
 
@@ -60,6 +96,17 @@ namespace VideoGameSemester.GameScreens
         }
 
         #endregion
+
+        #region Method Region
+
+        public virtual void Transition(ChangeType change, BaseGameState gameState)
+        {
+            Transitioning = true;
+            changeType = change;
+            TransitionTo = gameState;
+            transitionTimer = TimeSpan.Zero;
+        }
+
+        #endregion
     }
 }
-

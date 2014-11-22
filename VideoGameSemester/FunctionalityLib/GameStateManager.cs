@@ -11,6 +11,8 @@ using Microsoft.Xna.Framework.Media;
 
 namespace FunctionalityLib
 {
+    public enum ChangeType { Change, Pop, Push }
+
     public class GameStateManager : Microsoft.Xna.Framework.GameComponent
     {
         #region Event Region

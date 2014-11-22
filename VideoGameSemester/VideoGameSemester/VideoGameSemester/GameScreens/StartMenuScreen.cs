@@ -118,14 +118,10 @@ namespace VideoGameSemester.GameScreens
         private void menuItem_Selected(object sender, EventArgs e)
         {
             if (sender == startGame)
-            {
-                StateManager.PushState(GameRef.CharacterGeneratorScreen);
-            }
+                Transition(ChangeType.Push, GameRef.CharacterGeneratorScreen);
 
             if (sender == exitGame)
-            {
                 GameRef.Exit();
-            }
         }
 
         public override void Update(GameTime gameTime)

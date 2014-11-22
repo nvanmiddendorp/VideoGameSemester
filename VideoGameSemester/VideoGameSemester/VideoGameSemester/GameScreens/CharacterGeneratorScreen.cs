@@ -139,10 +139,10 @@ namespace VideoGameSemester.GameScreens
         {
             InputHandler.Flush();
 
-            StateManager.ChangeState(GameRef.GamePlayScreen);
-
             CreatePlayer();
             CreateWorld();
+
+            Transition(ChangeType.Change, GameRef.GamePlayScreen);
         }
 
         private void CreatePlayer()

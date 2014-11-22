@@ -28,7 +28,7 @@ namespace FunctionalityLib.TileEngine
         public Vector2 Position
         {
             get { return position; }
-            private set { position = value; }
+            set { position = value; }
         }
 
         public float Speed
@@ -151,7 +151,7 @@ namespace FunctionalityLib.TileEngine
             LockCamera();
         }
 
-        private void LockCamera()
+        public void LockCamera()
         {
             position.X = MathHelper.Clamp(position.X,
                 0,
