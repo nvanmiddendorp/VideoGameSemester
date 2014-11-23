@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using FunctionalityLib;
 using VideoGameSemester.GameScreens;
+using VideoGameSemester.Components;
 
 
 namespace VideoGameSemester
@@ -95,7 +96,6 @@ namespace VideoGameSemester
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             SpriteBatch = new SpriteBatch(GraphicsDevice);
-
             // TODO: use this.Content to load your game content here
         }
 

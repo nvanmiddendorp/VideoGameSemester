@@ -182,15 +182,6 @@
       <Time>2014-11-18T18:54:09.9839659-06:00</Time>
     </Item>
     <Item>
-      <Source>Fonts\ControlFont.spritefont</Source>
-      <Name>Fonts\ControlFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Fonts\ControlFont.xnb</Output>
-      <Time>2014-11-18T20:10:32.141576-06:00</Time>
-    </Item>
-    <Item>
       <Source>GUI\leftarrowUp.png</Source>
       <Name>GUI\leftarrowUp</Name>
       <Importer>TextureImporter</Importer>
@@ -216,6 +207,15 @@
       <Options>None</Options>
       <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\GUI\StopBar.xnb</Output>
       <Time>2014-11-18T20:31:39.102042-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Tilesets\Resources\Dungeon_A2.png</Source>
+      <Name>Tilesets\Resources\Dungeon_A2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Tilesets\Resources\Dungeon_A2.xnb</Output>
+      <Time>2014-11-18T21:47:31.8004414-06:00</Time>
     </Item>
     <Item>
       <Source>Tilesets\Resources\Dungeon_A1.png</Source>
@@ -839,15 +839,6 @@
       <Time>2014-11-19T20:33:17.6542126-06:00</Time>
     </Item>
     <Item>
-      <Source>Tilesets\Resources\Dungeon_A2.png</Source>
-      <Name>Tilesets\Resources\Dungeon_A2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Tilesets\Resources\Dungeon_A2.xnb</Output>
-      <Time>2014-11-18T21:47:31.8004414-06:00</Time>
-    </Item>
-    <Item>
       <Source>GUI\listBoxImage.png</Source>
       <Name>GUI\listBoxImage</Name>
       <Importer>TextureImporter</Importer>
@@ -855,6 +846,42 @@
       <Options>None</Options>
       <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\GUI\listBoxImage.xnb</Output>
       <Time>2014-11-20T21:47:45.358396-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\ControlFont.spritefont</Source>
+      <Name>Fonts\ControlFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Fonts\ControlFont.xnb</Output>
+      <Time>2014-11-18T20:10:32.141576-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Game\Game.xml</Source>
+      <Name>Game\Game</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Game.xnb</Output>
+      <Time>2014-11-23T02:56:15.3542988-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Game\Levels\Maps\Village.xml</Source>
+      <Name>Game\Levels\Maps\Village</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Village.xnb</Output>
+      <Time>2014-11-23T03:13:40.0990548-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Game\Levels\Starting Level.xml</Source>
+      <Name>Game\Levels\Starting Level</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Starting Level.xnb</Output>
+      <Time>2014-11-23T03:13:40.0170501-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -892,6 +919,10 @@
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
         <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\GameLib\bin\Debug\GameLib.dll</Key>
+        <Value>2014-11-23T03:12:30.0570487-06:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>

@@ -18,10 +18,10 @@ Content\Backgrounds\Resources\Universe.xnb
 Content\Backgrounds\Resources\Volcano.xnb
 Content\Backgrounds\Resources\World.xnb
 Content\Backgrounds\Resources\WorldMap.xnb
-Content\Fonts\ControlFont.xnb
 Content\GUI\leftarrowUp.xnb
 Content\GUI\rightarrowUp.xnb
 Content\GUI\StopBar.xnb
+Content\Tilesets\Resources\Dungeon_A2.xnb
 Content\Tilesets\Resources\Dungeon_A1.xnb
 Content\Tilesets\Resources\Dungeon_A4.xnb
 Content\Tilesets\Resources\Dungeon_A5.xnb
@@ -91,5 +91,8 @@ Content\PlayerSprites\People8.xnb
 Content\PlayerSprites\Riding.xnb
 Content\PlayerSprites\Spiritual.xnb
 Content\PlayerSprites\Vehicle.xnb
-Content\Tilesets\Resources\Dungeon_A2.xnb
 Content\GUI\listBoxImage.xnb
+Content\Fonts\ControlFont.xnb
+Content\Game\Game.xnb
+Content\Game\Levels\Maps\Village.xnb
+Content\Game\Levels\Starting Level.xnb

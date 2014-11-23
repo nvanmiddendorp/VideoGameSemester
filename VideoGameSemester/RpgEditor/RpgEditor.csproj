@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{25AB8645-DA48-40B9-A605-94DF2EC7698F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RpgEditor</RootNamespace>
+    <AssemblyName>RpgEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormArmor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArmor.Designer.cs">
+      <DependentUpon>FormArmor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormArmorDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArmorDetails.Designer.cs">
+      <DependentUpon>FormArmorDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChest.Designer.cs">
+      <DependentUpon>FormChest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChestDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChestDetails.Designer.cs">
+      <DependentUpon>FormChestDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClasses.Designer.cs">
+      <DependentUpon>FormClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetails.Designer.cs">
+      <DependentUpon>FormDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEntityData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEntityData.Designer.cs">
+      <DependentUpon>FormEntityData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKey.Designer.cs">
+      <DependentUpon>FormKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKeyDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKeyDetails.Designer.cs">
+      <DependentUpon>FormKeyDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewGame.Designer.cs">
+      <DependentUpon>FormNewGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShield.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShield.Designer.cs">
+      <DependentUpon>FormShield.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShieldDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShieldDetails.Designer.cs">
+      <DependentUpon>FormShieldDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWeapon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWeapon.Designer.cs">
+      <DependentUpon>FormWeapon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWeaponDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWeaponDetails.Designer.cs">
+      <DependentUpon>FormWeaponDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XnaSerializer.cs" />
+    <EmbeddedResource Include="FormArmor.resx">
+      <DependentUpon>FormArmor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormArmorDetails.resx">
+      <DependentUpon>FormArmorDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChest.resx">
+      <DependentUpon>FormChest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChestDetails.resx">
+      <DependentUpon>FormChestDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClasses.resx">
+      <DependentUpon>FormClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDetails.resx">
+      <DependentUpon>FormDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEntityData.resx">
+      <DependentUpon>FormEntityData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKey.resx">
+      <DependentUpon>FormKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKeyDetails.resx">
+      <DependentUpon>FormKeyDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewGame.resx">
+      <DependentUpon>FormNewGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShield.resx">
+      <DependentUpon>FormShield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShieldDetails.resx">
+      <DependentUpon>FormShieldDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWeapon.resx">
+      <DependentUpon>FormWeapon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWeaponDetails.resx">
+      <DependentUpon>FormWeaponDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FunctionalityLib\FunctionalityLib.csproj">
+      <Project>{6abc90b3-72e7-4fe3-9959-9d5b56c94a89}</Project>
+      <Name>FunctionalityLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameLib\GameLib.csproj">
+      <Project>{dc956729-44ce-425e-bf79-ee924b7fd6b3}</Project>
+      <Name>GameLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

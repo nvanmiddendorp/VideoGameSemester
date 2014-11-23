@@ -721,11 +721,11 @@ namespace XLevelEditor
 
             if (result == DialogResult.OK)
             {
-                if (!File.Exists(fbDialog.SelectedPath + @"\Game.xml"))
-                {
-                    MessageBox.Show("Game not found", "Error");
-                    return;
-                }
+                //if (!File.Exists(fbDialog.SelectedPath + @"\Game.xml"))
+                //{
+                //    MessageBox.Show("Game not found", "Error");
+                //    return;
+                //}
 
                 string LevelPath = Path.Combine(fbDialog.SelectedPath, @"Levels\");
                 string MapPath = Path.Combine(LevelPath, @"Maps\");
