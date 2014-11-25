@@ -542,13 +542,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game\Levels\Maps\Village.xml">
-      <Name>Village</Name>
+    <Compile Include="Game\Levels\Starting Level.xml">
+      <Name>Starting Level</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
     </Compile>
-    <Compile Include="Game\Levels\Starting Level.xml">
-      <Name>Starting Level</Name>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Game\Levels\Maps\Starting Map.xml">
+      <Name>Starting Map</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
     </Compile>

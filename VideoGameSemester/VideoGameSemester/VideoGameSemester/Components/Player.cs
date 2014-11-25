@@ -98,6 +98,7 @@ namespace VideoGameSemester.Components
 
                 sprite.Position += motion * sprite.Speed;
                 sprite.LockToMap();
+                
 
                 if (camera.CameraMode == CameraMode.Follow)
                     camera.LockToSprite(sprite);

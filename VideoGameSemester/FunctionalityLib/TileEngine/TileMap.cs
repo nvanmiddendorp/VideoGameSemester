@@ -62,6 +62,11 @@ namespace FunctionalityLib.TileEngine
             mapHeight = mapLayers[0].Height;
         }
 
+        public TileMap()
+        {
+
+        }
+
         #endregion
 
         #region Method Region

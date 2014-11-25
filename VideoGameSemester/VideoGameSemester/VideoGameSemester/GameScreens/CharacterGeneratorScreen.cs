@@ -26,9 +26,6 @@ namespace VideoGameSemester.GameScreens
         PictureBox characterImage;
         Texture2D[] characterImages;
 
-        Tileset newTileSet;
-        MapLayer newMapLayer;
-
         string[] characters = { "Actor1", "Actor2", "Actor3", "Actor4", "Actor5" };
 
         #endregion
@@ -173,20 +170,20 @@ namespace VideoGameSemester.GameScreens
         }
 
         private void CreateWorld()
-        {
-            /*
-            Texture2D tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A2");
-            Tileset tileset1 = new Tileset(tilesetTexture, 8, 8, 32, 32);
+        {       
+            //Texture2D tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A2");
+            //Tileset tileset1 = new Tileset(tilesetTexture, 8, 8, 32, 32);
 
-            tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A1");
-            Tileset tileset2 = new Tileset(tilesetTexture, 8, 8, 32, 32);
+            //tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A1");
+            //Tileset tileset2 = new Tileset(tilesetTexture, 8, 8, 32, 32);
 
             List<Tileset> tilesets = new List<Tileset>();
-            tilesets.Add(tileset1);
-            tilesets.Add(tileset2);
 
+            //tilesets.Add(tileset1);
+            //tilesets.Add(tileset2);
+            /*
             MapLayer layer = new MapLayer(100, 100);
-
+            
             for (int y = 0; y < layer.Height; y++)
             {
                 for (int x = 0; x < layer.Width; x++)
@@ -213,32 +210,34 @@ namespace VideoGameSemester.GameScreens
 
             splatter.SetTile(1, 0, new Tile(0, 1));
             splatter.SetTile(2, 0, new Tile(2, 1));
-            splatter.SetTile(3, 0, new Tile(0, 1));       
+            splatter.SetTile(3, 0, new Tile(0, 1));  
+            */
             
             List<MapLayer> mapLayers = new List<MapLayer>();
-            */
-
-            MapData mapData = Game.Content.Load<MapData>(@"Game\Levels\Maps\Village");
+            
+            MapData mapData = Game.Content.Load<MapData>(@"Game\Levels\Maps\Starting Map");
             
             foreach (TilesetData tilesetData in mapData.Tilesets)
             {
                 string filename = Path.GetFileNameWithoutExtension(tilesetData.TilesetImageName);
                 Texture2D texture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\" + filename);
-                newTileSet = new Tileset(texture, tilesetData.TilesWide, tilesetData.TilesHigh, tilesetData.TileWidthInPixels, tilesetData.TileHeightInPixels);
+                Tileset tileset = new Tileset(texture, tilesetData.TilesWide, tilesetData.TilesHigh, tilesetData.TileWidthInPixels, tilesetData.TileHeightInPixels);
+                tilesets.Add(tileset);
             }
 
             foreach (MapLayerData mapLayerData in mapData.Layers)
             {
-                newMapLayer = new MapLayer(mapLayerData.Height, mapLayerData.Width);
+                MapLayer maplayer = MapLayer.FromMapLayerData(mapLayerData);
+                mapLayers.Add(maplayer);
             }
-            
+
+            TileMap map = new TileMap(tilesets, mapLayers);
 
             //TileMap map = new TileMap(tileset1, layer);
             //map.AddTileset(tileset2);
             //map.AddLayer(splatter);
 
-            TileMap newMap = new TileMap(newTileSet, newMapLayer);
-            Level level = new Level(newMap);
+            Level level = new Level(map);
 
             World world = new World(GameRef, GameRef.ScreenRectangle);
             world.Levels.Add(level);

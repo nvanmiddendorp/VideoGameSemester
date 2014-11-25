@@ -2,7 +2,7 @@
 <XnaContent xmlns:WorldClasses="GameLib.WorldClasses">
   <Asset Type="WorldClasses:LevelData">
     <LevelName>Starting Level</LevelName>
-    <MapName>Village</MapName>
+    <MapName>Starting Map</MapName>
     <MapWidth>100</MapWidth>
     <MapHeight>100</MapHeight>
     <CharacterNames />

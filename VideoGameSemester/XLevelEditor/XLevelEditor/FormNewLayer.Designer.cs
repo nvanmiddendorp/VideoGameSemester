@@ -56,7 +56,7 @@
             // tbLayerName
             // 
             this.tbLayerName.Location = new System.Drawing.Point(92, 10);
-            this.tbLayerName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbLayerName.Margin = new System.Windows.Forms.Padding(2);
             this.tbLayerName.Name = "tbLayerName";
             this.tbLayerName.Size = new System.Drawing.Size(76, 20);
             this.tbLayerName.TabIndex = 1;
@@ -68,9 +68,9 @@
             this.gbFillLayer.Controls.Add(this.lblTileIndex);
             this.gbFillLayer.Controls.Add(this.lblTilesetIndex);
             this.gbFillLayer.Location = new System.Drawing.Point(9, 58);
-            this.gbFillLayer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbFillLayer.Margin = new System.Windows.Forms.Padding(2);
             this.gbFillLayer.Name = "gbFillLayer";
-            this.gbFillLayer.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbFillLayer.Padding = new System.Windows.Forms.Padding(2);
             this.gbFillLayer.Size = new System.Drawing.Size(158, 64);
             this.gbFillLayer.TabIndex = 3;
             this.gbFillLayer.TabStop = false;
@@ -79,7 +79,7 @@
             // nudTileset
             // 
             this.nudTileset.Location = new System.Drawing.Point(76, 39);
-            this.nudTileset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudTileset.Margin = new System.Windows.Forms.Padding(2);
             this.nudTileset.Maximum = new decimal(new int[] {
             512,
             0,
@@ -102,7 +102,7 @@
             // nudTile
             // 
             this.nudTile.Location = new System.Drawing.Point(76, 16);
-            this.nudTile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudTile.Margin = new System.Windows.Forms.Padding(2);
             this.nudTile.Maximum = new decimal(new int[] {
             512,
             0,
@@ -148,7 +148,7 @@
             this.cbFill.Checked = true;
             this.cbFill.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbFill.Location = new System.Drawing.Point(9, 36);
-            this.cbFill.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbFill.Margin = new System.Windows.Forms.Padding(2);
             this.cbFill.Name = "cbFill";
             this.cbFill.Size = new System.Drawing.Size(73, 17);
             this.cbFill.TabIndex = 2;
@@ -158,7 +158,7 @@
             // btnOK
             // 
             this.btnOK.Location = new System.Drawing.Point(22, 137);
-            this.btnOK.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(2);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(56, 19);
             this.btnOK.TabIndex = 4;
@@ -168,7 +168,7 @@
             // btnCancel
             // 
             this.btnCancel.Location = new System.Drawing.Point(92, 137);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(56, 19);
             this.btnCancel.TabIndex = 5;
@@ -188,7 +188,7 @@
             this.Controls.Add(this.tbLayerName);
             this.Controls.Add(this.lblLayerName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormNewLayer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "New Layer";

@@ -5,12 +5,12 @@ using System.Text;
 
 namespace GameLib.WorldClasses
 {
-    public struct Tile
+    public struct Tileg
     {
         public int TileIndex;
         public int TileSetIndex;
 
-        public Tile(int tileIndex, int tileSetIndex)
+        public Tileg(int tileIndex, int tileSetIndex)
         {
             TileIndex = tileIndex;
             TileSetIndex = tileSetIndex;
@@ -22,7 +22,7 @@ namespace GameLib.WorldClasses
         public string MapLayerName;
         public int Width;
         public int Height;
-        public Tile[] Layer;
+        public Tileg[] Layer;
 
         private MapLayerData()
         {
@@ -34,7 +34,7 @@ namespace GameLib.WorldClasses
             Width = width;
             Height = height;
 
-            Layer = new Tile[height * width];
+            Layer = new Tileg[height * width];
         }
 
         public MapLayerData(string mapLayerName, int width, int height, int tileIndex, int tileSet)
@@ -43,26 +43,26 @@ namespace GameLib.WorldClasses
             Width = width;
             Height = height;
 
-            Layer = new Tile[height * width];
+            Layer = new Tileg[height * width];
 
-            Tile tile = new Tile(tileIndex, tileSet);
+            Tileg tile = new Tileg(tileIndex, tileSet);
 
             for (int y = 0; y < height; y++)
                 for (int x = 0; x < width; x++)
                     SetTile(x, y, tile);
         }
 
-        public void SetTile(int x, int y, Tile tile)
+        public void SetTile(int x, int y, Tileg tile)
         {
             Layer[y * Width + x] = tile;
         }
 
         public void SetTile(int x, int y, int tileIndex, int tileSet)
         {
-            Layer[y * Width + x] = new Tile(tileIndex, tileSet);
+            Layer[y * Width + x] = new Tileg(tileIndex, tileSet);
         }
 
-        public Tile GetTile(int x, int y)
+        public Tileg GetTile(int x, int y)
         {
             return Layer[y * Width + x];
         }

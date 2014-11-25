@@ -866,22 +866,22 @@
       <Time>2014-11-23T02:56:15.3542988-06:00</Time>
     </Item>
     <Item>
-      <Source>Game\Levels\Maps\Village.xml</Source>
-      <Name>Game\Levels\Maps\Village</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Village.xnb</Output>
-      <Time>2014-11-23T03:13:40.0990548-06:00</Time>
-    </Item>
-    <Item>
       <Source>Game\Levels\Starting Level.xml</Source>
       <Name>Game\Levels\Starting Level</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Starting Level.xnb</Output>
-      <Time>2014-11-23T03:13:40.0170501-06:00</Time>
+      <Time>2014-11-23T20:08:29.2799727-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Game\Levels\Maps\Starting Map.xml</Source>
+      <Name>Game\Levels\Maps\Starting Map</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Starting Map.xnb</Output>
+      <Time>2014-11-23T20:08:29.4319814-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -922,7 +922,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\GameLib\bin\Debug\GameLib.dll</Key>
-        <Value>2014-11-23T03:12:30.0570487-06:00</Value>
+        <Value>2014-11-23T20:07:02.8400286-06:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>

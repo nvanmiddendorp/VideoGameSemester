@@ -789,6 +789,7 @@ namespace XLevelEditor
                 clbLayers.SelectedItem.ToString(),
                 layers[clbLayers.SelectedIndex].Width,
                 layers[clbLayers.SelectedIndex].Height);
+                
 
             for (int y = 0; y < layers[clbLayers.SelectedIndex].Height; y++)
             {
