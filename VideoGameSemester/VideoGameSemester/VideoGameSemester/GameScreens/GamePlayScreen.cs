@@ -21,6 +21,11 @@ namespace VideoGameSemester.GameScreens
         static Player player;
         static World world;
 
+        //combat screen rolls
+        Random random = new Random();
+        int range = 1000;
+        int roll;
+
         #endregion
 
         #region Property Region
@@ -65,6 +70,15 @@ namespace VideoGameSemester.GameScreens
         {
             world.Update(gameTime);
             player.Update(gameTime);
+            
+            if(player.Sprite.IsAnimating)
+            {
+                roll = random.Next(1, range);
+                if(roll == 1)
+                {
+                    Transition(ChangeType.Push, GameRef.CombatScreen);
+                }
+            }
 
             base.Update(gameTime);
         }

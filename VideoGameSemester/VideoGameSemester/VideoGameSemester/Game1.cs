@@ -35,6 +35,7 @@ namespace VideoGameSemester
         public StartMenuScreen StartMenuScreen;
         public GamePlayScreen GamePlayScreen;
         public CharacterGeneratorScreen CharacterGeneratorScreen;
+        public CombatScreen CombatScreen;
 
         #endregion
 
@@ -71,6 +72,7 @@ namespace VideoGameSemester
             StartMenuScreen = new StartMenuScreen(this, stateManager);
             GamePlayScreen = new GamePlayScreen(this, stateManager);
             CharacterGeneratorScreen = new CharacterGeneratorScreen(this, stateManager);
+            CombatScreen = new CombatScreen(this, stateManager);
 
             stateManager.ChangeState(TitleScreen);
         }

@@ -78,7 +78,7 @@ namespace FunctionalityLib.TileEngine
         public Camera(Rectangle viewportRect)
         {
             speed = 4f;
-            zoom = 1f;
+            zoom = 1.5f;
             viewportRectangle = viewportRect;
             mode = CameraMode.Follow;
         }
@@ -86,7 +86,7 @@ namespace FunctionalityLib.TileEngine
         public Camera(Rectangle viewportRect, Vector2 position)
         {
             speed = 4f;
-            zoom = 1f;
+            zoom = 1.5f;
             viewportRectangle = viewportRect;
             Position = position;
             mode = CameraMode.Follow;

@@ -872,25 +872,25 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Starting Level.xnb</Output>
-      <Time>2014-11-23T20:08:29.2799727-06:00</Time>
+      <Time>2014-11-25T11:04:46.5621361-06:00</Time>
     </Item>
     <Item>
-      <Source>Game\Levels\Maps\Starting Map.xml</Source>
-      <Name>Game\Levels\Maps\Starting Map</Name>
+      <Source>Tilesets\Resources\magecity_0.png</Source>
+      <Name>Tilesets\Resources\magecity_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Tilesets\Resources\magecity_0.xnb</Output>
+      <Time>2014-11-25T09:47:40.7948646-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Game\Levels\Maps\Village.xml</Source>
+      <Name>Game\Levels\Maps\Village</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Starting Map.xnb</Output>
-      <Time>2014-11-24T22:21:39.5381493-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Game\Levels\Maps\Testing Map.xml</Source>
-      <Name>Game\Levels\Maps\Testing Map</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Testing Map.xnb</Output>
-      <Time>2014-11-24T22:55:33.1204636-06:00</Time>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Village.xnb</Output>
+      <Time>2014-11-25T11:04:46.6401363-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

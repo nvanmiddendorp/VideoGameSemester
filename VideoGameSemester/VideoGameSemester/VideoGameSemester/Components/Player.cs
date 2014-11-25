@@ -55,6 +55,8 @@ namespace VideoGameSemester.Components
             camera.Update(gameTime);
             sprite.Update(gameTime);
 
+
+
             if (InputHandler.KeyReleased(Keys.PageUp))
             {
                 camera.ZoomIn();

@@ -35,7 +35,7 @@ namespace VideoGameSemester.GameScreens
         {
             ContentManager Content = GameRef.Content;
 
-            backgroundImage = Content.Load<Texture2D>(@"Backgrounds\Resources\volcano");
+            backgroundImage = Content.Load<Texture2D>(@"Backgrounds\Resources\Tower2");
 
             base.LoadContent();
 

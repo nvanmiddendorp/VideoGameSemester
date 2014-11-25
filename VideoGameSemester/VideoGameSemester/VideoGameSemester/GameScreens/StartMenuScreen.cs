@@ -50,7 +50,7 @@ namespace VideoGameSemester.GameScreens
             ContentManager Content = Game.Content;
 
             backgroundImage = new PictureBox(
-                Content.Load<Texture2D>(@"Backgrounds\Resources\Volcano"),
+                Content.Load<Texture2D>(@"Backgrounds\Resources\Tower2"),
                 GameRef.ScreenRectangle);
             ControlManager.Add(backgroundImage);
 

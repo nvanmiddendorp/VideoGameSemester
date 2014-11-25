@@ -103,7 +103,7 @@ namespace FunctionalityLib.TileEngine
         {
             foreach (MapLayer ml in mapLayers)
             {
-                if (ml.Name == "CollisionLayer")
+                if (ml.Name.Contains("Collision Layer"))
                 {
                     for (int y = 0; y < mapHeight; y++)
                         for (int x = 0; x < mapWidth; x++)

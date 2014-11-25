@@ -95,5 +95,5 @@ Content\GUI\listBoxImage.xnb
 Content\Fonts\ControlFont.xnb
 Content\Game\Game.xnb
 Content\Game\Levels\Starting Level.xnb
-Content\Game\Levels\Maps\Starting Map.xnb
-Content\Game\Levels\Maps\Testing Map.xnb
+Content\Tilesets\Resources\magecity_0.xnb
+Content\Game\Levels\Maps\Village.xnb

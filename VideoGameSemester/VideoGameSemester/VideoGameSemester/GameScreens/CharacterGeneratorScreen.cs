@@ -91,13 +91,13 @@ namespace VideoGameSemester.GameScreens
             Texture2D stopTexture = Game.Content.Load<Texture2D>(@"GUI\StopBar");
 
             backgroundImage = new PictureBox(
-                Game.Content.Load<Texture2D>(@"Backgrounds\Resources\Volcano"),
+                Game.Content.Load<Texture2D>(@"Backgrounds\Resources\Tower2"),
                 GameRef.ScreenRectangle);
             ControlManager.Add(backgroundImage);
 
             Label label1 = new Label();
 
-            label1.Text = "Who will search for the Eyes of the Dragon?";
+            label1.Text = "Who will defeat the Professors?";
             label1.Size = label1.SpriteFont.MeasureString(label1.Text);
             label1.Position = new Vector2((GameRef.Window.ClientBounds.Width - label1.Size.X) / 2, 150);
 
@@ -167,55 +167,16 @@ namespace VideoGameSemester.GameScreens
                 animations);
 
             GamePlayScreen.Player = new Player(GameRef, sprite);
+
+            //place the player in the map
+            GamePlayScreen.Player.Sprite.Position = new Vector2(200, 200);
         }
 
         private void CreateWorld()
-        {       
-            //Texture2D tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A2");
-            //Tileset tileset1 = new Tileset(tilesetTexture, 8, 8, 32, 32);
-
-            //tilesetTexture = Game.Content.Load<Texture2D>(@"Tilesets\Resources\Dungeon_A1");
-            //Tileset tileset2 = new Tileset(tilesetTexture, 8, 8, 32, 32);
-
-            List<Tileset> tilesets = new List<Tileset>();
-
-            //tilesets.Add(tileset1);
-            //tilesets.Add(tileset2);
-            /*
-            MapLayer layer = new MapLayer(100, 100);
-            
-            for (int y = 0; y < layer.Height; y++)
-            {
-                for (int x = 0; x < layer.Width; x++)
-                {
-                    Tile tile = new Tile(0, 0);
-
-                    layer.SetTile(x, y, tile);
-                }
-            }
-
-            MapLayer splatter = new MapLayer(100, 100);
-
-            Random random = new Random();
-
-            for (int i = 0; i < 100; i++)
-            {
-                int x = random.Next(0, 100);
-                int y = random.Next(0, 100);
-                int index = random.Next(2, 14);
-
-                Tile tile = new Tile(index, 0);
-                splatter.SetTile(x, y, tile);
-            }
-
-            splatter.SetTile(1, 0, new Tile(0, 1));
-            splatter.SetTile(2, 0, new Tile(2, 1));
-            splatter.SetTile(3, 0, new Tile(0, 1));  
-            */
-            
-            List<MapLayer> mapLayers = new List<MapLayer>();
-            
-            MapData mapData = Game.Content.Load<MapData>(@"Game\Levels\Maps\Testing Map");
+        {      
+            List<Tileset> tilesets = new List<Tileset>();        
+            List<MapLayer> mapLayers = new List<MapLayer>();         
+            MapData mapData = Game.Content.Load<MapData>(@"Game\Levels\Maps\Village");
             
             foreach (TilesetData tilesetData in mapData.Tilesets)
             {
@@ -232,11 +193,6 @@ namespace VideoGameSemester.GameScreens
             }
 
             TileMap map = new TileMap(tilesets, mapLayers);
-
-            //TileMap map = new TileMap(tileset1, layer);
-            //map.AddTileset(tileset2);
-            //map.AddLayer(splatter);
-
             Level level = new Level(map);
 
             World world = new World(GameRef, GameRef.ScreenRectangle);
