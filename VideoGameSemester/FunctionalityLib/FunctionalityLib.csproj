@@ -73,6 +73,7 @@
     <Compile Include="SpriteClasses\AnimatedSprite.cs" />
     <Compile Include="SpriteClasses\Animation.cs" />
     <Compile Include="TileEngine\Camera.cs" />
+    <Compile Include="TileEngine\CollisionLayer.cs" />
     <Compile Include="TileEngine\Engine.cs" />
     <Compile Include="TileEngine\MapLayer.cs" />
     <Compile Include="TileEngine\Tile.cs" />

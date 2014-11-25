@@ -40,12 +40,12 @@ namespace VideoGameSemester.GameScreens
         #endregion
 
         #region Constructor Region
-
+        
         public GamePlayScreen(Game game, GameStateManager manager)
             : base(game, manager)
         {
         }
-
+        
         #endregion
 
         #region XNA Method Region
@@ -91,6 +91,46 @@ namespace VideoGameSemester.GameScreens
         #endregion
 
         #region Abstract Method Region
+        public bool CheckUnwalkableTile(AnimatedSprite sprite, Vector2 motion)
+        {
+            List<Level> levels = World.Levels;
+            TileMap tileMap = levels.ElementAt(world.CurrentLevel).Map;
+
+            Vector2 nextLocation = sprite.Position + motion;
+
+            Rectangle nextRectangle = new Rectangle((int)nextLocation.X, (int)nextLocation.Y, sprite.Width, sprite.Height);
+
+            if (motion.Y < 0 && motion.X < 0)
+            {
+                return tileMap.CheckUpAndLeft(nextRectangle);
+            }
+            else if (motion.Y < 0 && motion.X == 0)
+            {
+                return tileMap.CheckUp(nextRectangle);
+            }
+            else if (motion.Y < 0 && motion.X > 0)
+            {
+                return tileMap.CheckUpAndRight(nextRectangle);
+            }
+            else if (motion.Y == 0 && motion.X < 0)
+            {
+                return tileMap.CheckLeft(nextRectangle);
+            }
+            else if (motion.Y == 0 && motion.X > 0)
+            {
+                return tileMap.CheckRight(nextRectangle);
+            }
+            else if (motion.Y > 0 && motion.X < 0)
+            {
+                return tileMap.CheckDownAndLeft(nextRectangle);
+            }
+            else if (motion.Y > 0 && motion.X == 0)
+            {
+                return tileMap.CheckDown(nextRectangle);
+            }
+
+            return tileMap.CheckDownAndRight(nextRectangle);
+        }
         #endregion
     }
 }

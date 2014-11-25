@@ -96,3 +96,4 @@ Content\Fonts\ControlFont.xnb
 Content\Game\Game.xnb
 Content\Game\Levels\Starting Level.xnb
 Content\Game\Levels\Maps\Starting Map.xnb
+Content\Game\Levels\Maps\Testing Map.xnb

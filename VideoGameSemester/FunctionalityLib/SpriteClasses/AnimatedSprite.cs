@@ -112,11 +112,6 @@ namespace FunctionalityLib.SpriteClasses
             position.Y = MathHelper.Clamp(position.Y, 0, TileMap.HeightInPixels - Height);         
         }
 
-        public void LockToTraversableTiles()
-        {
-
-        }
-
         #endregion
     }
 }

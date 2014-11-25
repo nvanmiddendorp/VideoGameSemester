@@ -881,7 +881,16 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Starting Map.xnb</Output>
-      <Time>2014-11-23T20:08:29.4319814-06:00</Time>
+      <Time>2014-11-24T22:21:39.5381493-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Game\Levels\Maps\Testing Map.xml</Source>
+      <Name>Game\Levels\Maps\Testing Map</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Testing Map.xnb</Output>
+      <Time>2014-11-24T22:55:33.1204636-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

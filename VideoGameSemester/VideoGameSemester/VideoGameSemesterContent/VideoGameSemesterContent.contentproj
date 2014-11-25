@@ -549,8 +549,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game\Levels\Maps\Starting Map.xml">
-      <Name>Starting Map</Name>
+    <Compile Include="Game\Levels\Maps\Village.xml">
+      <Name>Village</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
     </Compile>

@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.Input;
 using FunctionalityLib;
 using FunctionalityLib.TileEngine;
 using FunctionalityLib.SpriteClasses;
+using VideoGameSemester.GameScreens;
 
 namespace VideoGameSemester.Components
 {
@@ -96,9 +97,12 @@ namespace VideoGameSemester.Components
                 sprite.IsAnimating = true;
                 motion.Normalize();
 
-                sprite.Position += motion * sprite.Speed;
-                sprite.LockToMap();
-                
+                sprite.Position += motion * sprite.Speed;             
+
+                if (!gameRef.GamePlayScreen.CheckUnwalkableTile(sprite, motion))
+                    sprite.Position += motion * sprite.Speed;  
+                else
+                    sprite.Position -= motion * sprite.Speed;  
 
                 if (camera.CameraMode == CameraMode.Follow)
                     camera.LockToSprite(sprite);
@@ -107,6 +111,8 @@ namespace VideoGameSemester.Components
             {
                 sprite.IsAnimating = false;
             }
+
+            sprite.LockToMap();
 
             /*
             if (InputHandler.KeyReleased(Keys.F))

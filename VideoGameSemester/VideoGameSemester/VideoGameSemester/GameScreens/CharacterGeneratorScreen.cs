@@ -215,7 +215,7 @@ namespace VideoGameSemester.GameScreens
             
             List<MapLayer> mapLayers = new List<MapLayer>();
             
-            MapData mapData = Game.Content.Load<MapData>(@"Game\Levels\Maps\Starting Map");
+            MapData mapData = Game.Content.Load<MapData>(@"Game\Levels\Maps\Testing Map");
             
             foreach (TilesetData tilesetData in mapData.Tilesets)
             {

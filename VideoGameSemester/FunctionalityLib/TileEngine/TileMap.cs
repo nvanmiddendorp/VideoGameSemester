@@ -13,6 +13,7 @@ namespace FunctionalityLib.TileEngine
 
         List<Tileset> tilesets;
         List<MapLayer> mapLayers;
+        CollisionLayer collisionLayer;
 
         static int mapWidth;
         static int mapHeight;
@@ -48,6 +49,13 @@ namespace FunctionalityLib.TileEngine
                 if (mapWidth != mapLayers[i].Width || mapHeight != mapLayers[i].Height)
                     throw new Exception("Map layer size exception");
             }
+
+            collisionLayer = new CollisionLayer(mapWidth, mapHeight);
+            
+            foreach(MapLayer mapLayer in mapLayers)
+            {
+                ProcessCollisionLayer(mapLayer);
+            }
         }
 
         public TileMap(Tileset tileset, MapLayer layer)
@@ -60,6 +68,13 @@ namespace FunctionalityLib.TileEngine
 
             mapWidth = mapLayers[0].Width;
             mapHeight = mapLayers[0].Height;
+
+            collisionLayer = new CollisionLayer(mapWidth, mapHeight);
+
+            foreach (MapLayer mapLayer in mapLayers)
+            {
+                ProcessCollisionLayer(mapLayer);
+            }
         }
 
         public TileMap()
@@ -82,6 +97,172 @@ namespace FunctionalityLib.TileEngine
         public void AddTileset(Tileset tileset)
         {
             tilesets.Add(tileset);
+        }
+
+        private void ProcessCollisionLayer(MapLayer layer)
+        {
+            foreach (MapLayer ml in mapLayers)
+            {
+                if (ml.Name == "CollisionLayer")
+                {
+                    for (int y = 0; y < mapHeight; y++)
+                        for (int x = 0; x < mapWidth; x++)
+                        {
+                            if (ml.GetTile(x, y).TileIndex != -1)
+                                collisionLayer.SetTile(x, y, CollisionType.Unpassable);
+                        }
+                }
+            }
+        }
+
+        public bool CheckUpAndLeft(Rectangle nextRectangle)
+        {
+            Point tile1 = Engine.VectorToCell(new Vector2(nextRectangle.X, nextRectangle.Y));
+            Point tile2 = Engine.VectorToCell(new Vector2(nextRectangle.X + nextRectangle.Width, nextRectangle.Y + nextRectangle.Height));
+
+            bool doesCollide = false;
+
+            if (tile1.X < 0 || tile1.Y < 0)
+                return !doesCollide;
+
+            for (int y = tile1.Y; y <= tile2.Y; y++)
+                for (int x = tile1.X; x <= tile2.X; x++)
+                    if (GetCollisionValue(x, y) == CollisionType.Unpassable)
+                        doesCollide = true;
+
+            return doesCollide;
+        }
+
+        public bool CheckUp(Rectangle nextRectangle)
+        {
+            Point tile1 = Engine.VectorToCell(new Vector2(nextRectangle.X, nextRectangle.Y));
+            Point tile2 = Engine.VectorToCell(new Vector2(nextRectangle.X + nextRectangle.Width - 1, nextRectangle.Y + nextRectangle.Height));
+
+            bool doesCollide = false;
+
+            if (tile1.Y < 0)
+                return !doesCollide;
+
+            int y = tile1.Y;
+                for (int x = tile1.X; x <= tile2.X; x++)
+                    if (GetCollisionValue(x, y) == CollisionType.Unpassable)
+                        doesCollide = true;
+
+            return doesCollide;
+        }
+
+        public bool CheckUpAndRight(Rectangle nextRectangle)
+        {
+            Point tile1 = Engine.VectorToCell(new Vector2(nextRectangle.X, nextRectangle.Y));
+            Point tile2 = Engine.VectorToCell(new Vector2(nextRectangle.X + nextRectangle.Width + 1, nextRectangle.Y + nextRectangle.Height));
+
+            bool doesCollide = false;
+
+            if (tile2.X >= mapWidth || tile1.Y < 0)
+                return !doesCollide;
+
+            for (int y = tile1.Y; y <= tile2.Y; y++)
+                for (int x = tile1.X; x <= tile2.X; x++)
+                    if (GetCollisionValue(x, y) == CollisionType.Unpassable)
+                        doesCollide = true;
+
+            return doesCollide;
+        }
+
+        public bool CheckLeft(Rectangle nextRectangle)
+        {
+            Point tile1 = Engine.VectorToCell(new Vector2(nextRectangle.X, nextRectangle.Y));
+            Point tile2 = Engine.VectorToCell(new Vector2(nextRectangle.X + nextRectangle.Width, nextRectangle.Y + nextRectangle.Height - 1));
+
+            bool doesCollide = false;
+
+            if (tile1.X < 0)
+                return !doesCollide;
+
+            int x = tile1.X;
+            for (int y = tile1.Y; y <= tile2.Y; y++)
+                if (GetCollisionValue(x, y) == CollisionType.Unpassable)
+                    doesCollide = true;
+
+            return doesCollide;
+        }
+
+        public bool CheckRight(Rectangle nextRectangle)
+        {
+            Point tile1 = Engine.VectorToCell(new Vector2(nextRectangle.X, nextRectangle.Y));
+            Point tile2 = Engine.VectorToCell(new Vector2(nextRectangle.X + nextRectangle.Width, nextRectangle.Y + nextRectangle.Height - 1));
+
+            bool doesCollide = false;
+
+            if (tile2.X > mapWidth)
+                return !doesCollide;
+
+            int x = tile2.X;
+
+            for (int y = tile1.Y; y <= tile2.Y; y++)
+                    if (GetCollisionValue(x, y) == CollisionType.Unpassable)
+                        doesCollide = true;
+
+            return doesCollide;
+        }
+
+        public bool CheckDownAndLeft(Rectangle nextRectangle)
+        {
+            Point tile1 = Engine.VectorToCell(new Vector2(nextRectangle.X, nextRectangle.Y));
+            Point tile2 = Engine.VectorToCell(new Vector2(nextRectangle.X + nextRectangle.Width, nextRectangle.Y + nextRectangle.Height));
+
+            bool doesCollide = false;
+
+            if (tile1.X < 0 || tile2.Y >= mapHeight)
+                return !doesCollide;
+
+            for (int y = tile1.Y; y <= tile2.Y; y++)
+                for (int x = tile1.X; x <= tile2.X; x++)
+                    if (GetCollisionValue(x, y) == CollisionType.Unpassable)
+                        doesCollide = true;
+
+            return doesCollide;
+        }
+
+        public bool CheckDown(Rectangle nextRectangle)
+        {
+            Point tile1 = Engine.VectorToCell(new Vector2(nextRectangle.X, nextRectangle.Y));
+            Point tile2 = Engine.VectorToCell(new Vector2(nextRectangle.X + nextRectangle.Width - 1, nextRectangle.Y + nextRectangle.Height));
+
+            bool doesCollide = false;
+
+            if (tile2.Y >= mapHeight)
+                return !doesCollide;
+
+            int y = tile2.Y;
+                for (int x = tile1.X; x <= tile2.X; x++)
+                    if (GetCollisionValue(x, y) == CollisionType.Unpassable)
+                        doesCollide = true;
+
+            return doesCollide;
+        }
+
+        public bool CheckDownAndRight(Rectangle nextRectangle)
+        {
+            Point tile1 = Engine.VectorToCell(new Vector2(nextRectangle.X, nextRectangle.Y));
+            Point tile2 = Engine.VectorToCell(new Vector2(nextRectangle.X + nextRectangle.Width, nextRectangle.Y + nextRectangle.Height));
+
+            bool doesCollide = false;
+
+            if (tile2.X >= mapWidth || tile2.Y >= mapHeight)
+                return !doesCollide;
+
+            for (int y = tile1.Y; y <= tile2.Y; y++)
+                for (int x = tile1.X; x <= tile2.X; x++)
+                    if (GetCollisionValue(x, y) == CollisionType.Unpassable)
+                        doesCollide = true;
+
+            return doesCollide;
+        }
+
+        public CollisionType GetCollisionValue(int x, int y)
+        {
+            return collisionLayer.GetTile(x, y);
         }
 
         public void Draw(SpriteBatch spriteBatch, Camera camera)

@@ -13,6 +13,7 @@ namespace FunctionalityLib.TileEngine
         #region Field Region
 
         Tile[,] layer;
+        public string Name;
 
         #endregion
 
@@ -37,9 +38,10 @@ namespace FunctionalityLib.TileEngine
             this.layer = (Tile[,])map.Clone();
         }
 
-        public MapLayer(int width, int height)
+        public MapLayer(int width, int height, string name)
         {
             layer = new Tile[height, width];
+            Name = name;
 
             for (int y = 0; y < height; y++)
             {
@@ -112,7 +114,7 @@ namespace FunctionalityLib.TileEngine
 
         public static MapLayer FromMapLayerData(MapLayerData data)
         {
-            MapLayer layer = new MapLayer(data.Width, data.Height);
+            MapLayer layer = new MapLayer(data.Width, data.Height, data.MapLayerName);
 
             for (int y = 0; y < data.Height; y++)
                 for (int x = 0; x < data.Width; x++)
