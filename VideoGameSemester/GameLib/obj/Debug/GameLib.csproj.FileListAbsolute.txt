@@ -1,5 +1,4 @@
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\GameLib\bin\Debug\GameLib.dll
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\GameLib\bin\Debug\GameLib.pdb
-C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\GameLib\obj\Debug\GameLib.csprojResolveAssemblyReference.cache
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\GameLib\obj\Debug\GameLib.dll
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\GameLib\obj\Debug\GameLib.pdb

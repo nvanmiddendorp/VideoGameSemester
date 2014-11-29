@@ -2,12 +2,12 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Backgrounds\Titlescreen.png</Source>
-      <Name>Backgrounds\Titlescreen</Name>
+      <Source>Backgrounds\Resources\Titlescreen.png</Source>
+      <Name>Backgrounds\Resources\Titlescreen</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Titlescreen.xnb</Output>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Resources\Titlescreen.xnb</Output>
       <Time>2014-11-18T18:52:15.5064182-06:00</Time>
     </Item>
     <Item>
@@ -533,21 +533,21 @@
       <Time>2014-11-19T20:33:17.4121987-06:00</Time>
     </Item>
     <Item>
-      <Source>PlayerSprites\$BigMonster1.png</Source>
-      <Name>PlayerSprites\$BigMonster1</Name>
+      <Source>Monsters\$BigMonster1.png</Source>
+      <Name>Monsters\$BigMonster1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\$BigMonster1.xnb</Output>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\$BigMonster1.xnb</Output>
       <Time>2014-11-19T20:33:17.4201992-06:00</Time>
     </Item>
     <Item>
-      <Source>PlayerSprites\$BigMonster2.png</Source>
-      <Name>PlayerSprites\$BigMonster2</Name>
+      <Source>Monsters\$BigMonster2.png</Source>
+      <Name>Monsters\$BigMonster2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\$BigMonster2.xnb</Output>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\$BigMonster2.xnb</Output>
       <Time>2014-11-19T20:33:17.4231994-06:00</Time>
     </Item>
     <Item>
@@ -713,30 +713,30 @@
       <Time>2014-11-19T20:33:17.574208-06:00</Time>
     </Item>
     <Item>
-      <Source>PlayerSprites\Monster1.png</Source>
-      <Name>PlayerSprites\Monster1</Name>
+      <Source>Monsters\Monster1.png</Source>
+      <Name>Monsters\Monster1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Monster1.xnb</Output>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\Monster1.xnb</Output>
       <Time>2014-11-19T20:33:17.5782082-06:00</Time>
     </Item>
     <Item>
-      <Source>PlayerSprites\Monster2.png</Source>
-      <Name>PlayerSprites\Monster2</Name>
+      <Source>Monsters\Monster2.png</Source>
+      <Name>Monsters\Monster2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Monster2.xnb</Output>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\Monster2.xnb</Output>
       <Time>2014-11-19T20:33:17.5822084-06:00</Time>
     </Item>
     <Item>
-      <Source>PlayerSprites\Monster3.png</Source>
-      <Name>PlayerSprites\Monster3</Name>
+      <Source>Monsters\Monster3.png</Source>
+      <Name>Monsters\Monster3</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Monster3.xnb</Output>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\Monster3.xnb</Output>
       <Time>2014-11-19T20:33:17.5862087-06:00</Time>
     </Item>
     <Item>
@@ -848,6 +848,1833 @@
       <Time>2014-11-20T21:47:45.358396-06:00</Time>
     </Item>
     <Item>
+      <Source>Tilesets\Resources\magecity_0.png</Source>
+      <Name>Tilesets\Resources\magecity_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Tilesets\Resources\magecity_0.xnb</Output>
+      <Time>2014-11-25T09:47:40.7948646-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Brick.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Brick.xnb</Output>
+      <Time>2014-11-25T13:37:55.1579344-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Bridge.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Bridge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Bridge.xnb</Output>
+      <Time>2014-11-25T13:37:55.1619346-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Castle1.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Castle1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Castle1.xnb</Output>
+      <Time>2014-11-25T13:37:55.1649348-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Castle2.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Castle2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Castle2.xnb</Output>
+      <Time>2014-11-25T13:37:55.167935-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Castle3.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Castle3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Castle3.xnb</Output>
+      <Time>2014-11-25T13:37:55.1719352-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Cliff.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Cliff</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Cliff.xnb</Output>
+      <Time>2014-11-25T13:37:55.1749354-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Clouds.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Clouds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Clouds.xnb</Output>
+      <Time>2014-11-25T13:37:55.1779356-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Crystal.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Crystal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Crystal.xnb</Output>
+      <Time>2014-11-25T13:37:55.1809357-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\DarkSpace.png</Source>
+      <Name>Backgrounds\Battlebacks Background\DarkSpace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DarkSpace.xnb</Output>
+      <Time>2014-11-25T13:37:55.1839359-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\DemonCastle1.png</Source>
+      <Name>Backgrounds\Battlebacks Background\DemonCastle1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DemonCastle1.xnb</Output>
+      <Time>2014-11-25T13:37:55.1869361-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\DemonCastle2.png</Source>
+      <Name>Backgrounds\Battlebacks Background\DemonCastle2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DemonCastle2.xnb</Output>
+      <Time>2014-11-25T13:37:55.1909363-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\DemonCastle3.png</Source>
+      <Name>Backgrounds\Battlebacks Background\DemonCastle3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DemonCastle3.xnb</Output>
+      <Time>2014-11-25T13:37:55.1939365-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\DemonicWorld.png</Source>
+      <Name>Backgrounds\Battlebacks Background\DemonicWorld</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DemonicWorld.xnb</Output>
+      <Time>2014-11-25T13:37:55.1979367-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Desert.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Desert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Desert.xnb</Output>
+      <Time>2014-11-25T13:37:55.2009369-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\DirtCave.png</Source>
+      <Name>Backgrounds\Battlebacks Background\DirtCave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DirtCave.xnb</Output>
+      <Time>2014-11-25T13:37:55.2049371-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Factory.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Factory</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Factory.xnb</Output>
+      <Time>2014-11-25T13:37:55.2079373-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Forest1.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Forest1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Forest1.xnb</Output>
+      <Time>2014-11-25T13:37:55.2109374-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Forest2.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Forest2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Forest2.xnb</Output>
+      <Time>2014-11-25T13:37:55.2139376-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Fort1.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Fort1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Fort1.xnb</Output>
+      <Time>2014-11-25T13:37:55.2169378-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Fort2.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Fort2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Fort2.xnb</Output>
+      <Time>2014-11-25T13:37:55.220938-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Grassland.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Grassland</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Grassland.xnb</Output>
+      <Time>2014-11-25T13:37:55.2239382-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\GrassMaze.png</Source>
+      <Name>Backgrounds\Battlebacks Background\GrassMaze</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\GrassMaze.xnb</Output>
+      <Time>2014-11-25T13:37:55.2269384-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\IceCave.png</Source>
+      <Name>Backgrounds\Battlebacks Background\IceCave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\IceCave.xnb</Output>
+      <Time>2014-11-25T13:37:55.2299385-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\IceMaze.png</Source>
+      <Name>Backgrounds\Battlebacks Background\IceMaze</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\IceMaze.xnb</Output>
+      <Time>2014-11-25T13:37:55.6669635-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\InBody.png</Source>
+      <Name>Backgrounds\Battlebacks Background\InBody</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\InBody.xnb</Output>
+      <Time>2014-11-25T13:37:55.6709638-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Lava.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Lava</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Lava.xnb</Output>
+      <Time>2014-11-25T13:37:55.674964-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\LavaCave.png</Source>
+      <Name>Backgrounds\Battlebacks Background\LavaCave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\LavaCave.xnb</Output>
+      <Time>2014-11-25T13:37:55.6939651-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Mine.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Mine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Mine.xnb</Output>
+      <Time>2014-11-25T13:37:55.7149663-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\PoisonSwamp.png</Source>
+      <Name>Backgrounds\Battlebacks Background\PoisonSwamp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\PoisonSwamp.xnb</Output>
+      <Time>2014-11-25T13:37:55.7319672-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Port.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Port</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Port.xnb</Output>
+      <Time>2014-11-25T13:37:55.7469681-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\RockCave.png</Source>
+      <Name>Backgrounds\Battlebacks Background\RockCave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\RockCave.xnb</Output>
+      <Time>2014-11-25T13:37:55.7499683-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Room1.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Room1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Room1.xnb</Output>
+      <Time>2014-11-25T13:37:55.7539685-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Room2.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Room2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Room2.xnb</Output>
+      <Time>2014-11-25T13:37:55.7779699-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Room3.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Room3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Room3.xnb</Output>
+      <Time>2014-11-25T13:37:55.8069715-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Room4.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Room4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Room4.xnb</Output>
+      <Time>2014-11-25T13:37:55.8309729-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Ruins.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Ruins</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Ruins.xnb</Output>
+      <Time>2014-11-25T13:37:55.8569744-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Sea.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Sea</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Sea.xnb</Output>
+      <Time>2014-11-25T13:37:55.8779756-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Ship.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Ship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Ship.xnb</Output>
+      <Time>2014-11-25T13:37:55.8939765-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Sky.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Sky.xnb</Output>
+      <Time>2014-11-25T13:37:55.9229782-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Snowfield.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Snowfield</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Snowfield.xnb</Output>
+      <Time>2014-11-25T13:37:55.9529799-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Stone1.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Stone1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone1.xnb</Output>
+      <Time>2014-11-25T13:37:55.9659806-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Stone2.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Stone2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone2.xnb</Output>
+      <Time>2014-11-25T13:37:55.9839817-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Stone3.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Stone3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone3.xnb</Output>
+      <Time>2014-11-25T13:37:56.0019827-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Stone4.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Stone4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone4.xnb</Output>
+      <Time>2014-11-25T13:37:56.0239839-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Stone5.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Stone5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone5.xnb</Output>
+      <Time>2014-11-25T13:37:56.0539857-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Temple.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Temple</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Temple.xnb</Output>
+      <Time>2014-11-25T13:37:56.0669864-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Tent.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Tent</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Tent.xnb</Output>
+      <Time>2014-11-25T13:37:56.0809872-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Tower.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Tower</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Tower.xnb</Output>
+      <Time>2014-11-25T13:37:56.1079888-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Town1.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Town1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town1.xnb</Output>
+      <Time>2014-11-25T13:37:56.1319901-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Town2.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Town2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town2.xnb</Output>
+      <Time>2014-11-25T13:37:56.1539914-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Town3.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Town3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town3.xnb</Output>
+      <Time>2014-11-25T13:37:56.1759926-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Town4.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Town4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town4.xnb</Output>
+      <Time>2014-11-25T13:37:56.2029942-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Town5.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Town5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town5.xnb</Output>
+      <Time>2014-11-25T13:37:56.2289957-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Background\Wasteland.png</Source>
+      <Name>Backgrounds\Battlebacks Background\Wasteland</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Wasteland.xnb</Output>
+      <Time>2014-11-25T13:37:56.2319958-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Castle.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Castle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Castle.xnb</Output>
+      <Time>2014-11-25T13:38:16.2661417-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Clouds.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Clouds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Clouds.xnb</Output>
+      <Time>2014-11-25T13:38:16.270142-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Cobblestones1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Cobblestones1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Cobblestones1.xnb</Output>
+      <Time>2014-11-25T13:38:16.2731421-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Cobblestones2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Cobblestones2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Cobblestones2.xnb</Output>
+      <Time>2014-11-25T13:38:16.2761423-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Cobblestones3.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Cobblestones3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Cobblestones3.xnb</Output>
+      <Time>2014-11-25T13:38:16.2791425-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Cobblestones4.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Cobblestones4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Cobblestones4.xnb</Output>
+      <Time>2014-11-25T13:38:16.2821426-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Crystal1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Crystal1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Crystal1.xnb</Output>
+      <Time>2014-11-25T13:38:16.2861429-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Crystal2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Crystal2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Crystal2.xnb</Output>
+      <Time>2014-11-25T13:38:16.289143-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\DarkSpace.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\DarkSpace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DarkSpace.xnb</Output>
+      <Time>2014-11-25T13:38:16.2931433-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\DecorativeTile.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\DecorativeTile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DecorativeTile.xnb</Output>
+      <Time>2014-11-25T13:38:16.2961434-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\DemonCastle.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\DemonCastle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DemonCastle.xnb</Output>
+      <Time>2014-11-25T13:38:16.2991436-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\DemonicWorld1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\DemonicWorld1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DemonicWorld1.xnb</Output>
+      <Time>2014-11-25T13:38:16.3021438-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\DemonicWorld2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\DemonicWorld2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DemonicWorld2.xnb</Output>
+      <Time>2014-11-25T13:38:16.305144-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Desert.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Desert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Desert.xnb</Output>
+      <Time>2014-11-25T13:38:16.3081441-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Dirt1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Dirt1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Dirt1.xnb</Output>
+      <Time>2014-11-25T13:38:16.3111443-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Dirt2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Dirt2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Dirt2.xnb</Output>
+      <Time>2014-11-25T13:38:16.3141445-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\DirtCave.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\DirtCave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DirtCave.xnb</Output>
+      <Time>2014-11-25T13:38:16.3171447-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\DirtField.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\DirtField</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DirtField.xnb</Output>
+      <Time>2014-11-25T13:38:16.3211449-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Factory1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Factory1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Factory1.xnb</Output>
+      <Time>2014-11-25T13:38:16.3251451-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Factory2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Factory2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Factory2.xnb</Output>
+      <Time>2014-11-25T13:38:16.3281453-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Fort.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Fort</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Fort.xnb</Output>
+      <Time>2014-11-25T13:38:16.3311455-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Grassland.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Grassland</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Grassland.xnb</Output>
+      <Time>2014-11-25T13:38:16.3351457-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\GrassMaze.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\GrassMaze</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\GrassMaze.xnb</Output>
+      <Time>2014-11-25T13:38:16.3381459-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\IceCave.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\IceCave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\IceCave.xnb</Output>
+      <Time>2014-11-25T13:38:16.341146-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\IceMaze.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\IceMaze</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\IceMaze.xnb</Output>
+      <Time>2014-11-25T13:38:16.3441462-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\InBody.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\InBody</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\InBody.xnb</Output>
+      <Time>2014-11-25T13:38:16.3471464-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Lava1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Lava1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Lava1.xnb</Output>
+      <Time>2014-11-25T13:38:16.3501465-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Lava2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Lava2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Lava2.xnb</Output>
+      <Time>2014-11-25T13:38:16.3541468-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\LavaCave.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\LavaCave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\LavaCave.xnb</Output>
+      <Time>2014-11-25T13:38:16.3571469-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Meadow.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Meadow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Meadow.xnb</Output>
+      <Time>2014-11-25T13:38:16.3601471-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Paved.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Paved</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Paved.xnb</Output>
+      <Time>2014-11-25T13:38:16.3631473-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\PoisonSwamp.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\PoisonSwamp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\PoisonSwamp.xnb</Output>
+      <Time>2014-11-25T13:38:16.3771481-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Road1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Road1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Road1.xnb</Output>
+      <Time>2014-11-25T13:38:16.3801483-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Road2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Road2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Road2.xnb</Output>
+      <Time>2014-11-25T13:38:16.3831484-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Road3.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Road3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Road3.xnb</Output>
+      <Time>2014-11-25T13:38:16.3861486-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\RockCave1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\RockCave1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\RockCave1.xnb</Output>
+      <Time>2014-11-25T13:38:16.3891488-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\RockCave2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\RockCave2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\RockCave2.xnb</Output>
+      <Time>2014-11-25T13:38:16.393149-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Ruins1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Ruins1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Ruins1.xnb</Output>
+      <Time>2014-11-25T13:38:16.3961492-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Ruins2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Ruins2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Ruins2.xnb</Output>
+      <Time>2014-11-25T13:38:16.3991493-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Ruins3.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Ruins3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Ruins3.xnb</Output>
+      <Time>2014-11-25T13:38:16.4031496-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Sand.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Sand.xnb</Output>
+      <Time>2014-11-25T13:38:16.4061497-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Ship.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Ship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Ship.xnb</Output>
+      <Time>2014-11-25T13:38:16.4091499-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Sky.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Sky.xnb</Output>
+      <Time>2014-11-25T13:38:16.4121501-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Snow.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Snow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Snow.xnb</Output>
+      <Time>2014-11-25T13:38:16.4151503-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Snowfield.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Snowfield</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Snowfield.xnb</Output>
+      <Time>2014-11-25T13:38:16.4181504-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Stone1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Stone1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Stone1.xnb</Output>
+      <Time>2014-11-25T13:38:16.4221507-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Stone2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Stone2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Stone2.xnb</Output>
+      <Time>2014-11-25T13:38:16.4251508-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Stone3.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Stone3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Stone3.xnb</Output>
+      <Time>2014-11-25T13:38:16.428151-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Tent.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Tent</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Tent.xnb</Output>
+      <Time>2014-11-25T13:38:16.4311512-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Translucent.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Translucent</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Translucent.xnb</Output>
+      <Time>2014-11-25T13:38:16.4341513-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Wasteland.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Wasteland</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Wasteland.xnb</Output>
+      <Time>2014-11-25T13:38:16.4381516-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\WireMesh.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\WireMesh</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\WireMesh.xnb</Output>
+      <Time>2014-11-25T13:38:16.4411517-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Wood1.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Wood1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Wood1.xnb</Output>
+      <Time>2014-11-25T13:38:16.4441519-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\Battlebacks Foreground\Wood2.png</Source>
+      <Name>Backgrounds\Battlebacks Foreground\Wood2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Wood2.xnb</Output>
+      <Time>2014-11-25T13:38:16.4471521-06:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\textbox.png</Source>
+      <Name>GUI\textbox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\GUI\textbox.xnb</Output>
+      <Time>2014-11-25T13:48:41.1778846-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack1.png</Source>
+      <Name>Attack Sprites\Attack1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack1.xnb</Output>
+      <Time>2014-11-27T22:36:00.6956252-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack10.png</Source>
+      <Name>Attack Sprites\Attack10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack10.xnb</Output>
+      <Time>2014-11-27T22:36:00.9306387-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack11.png</Source>
+      <Name>Attack Sprites\Attack11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack11.xnb</Output>
+      <Time>2014-11-27T22:36:00.9696409-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack12.png</Source>
+      <Name>Attack Sprites\Attack12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack12.xnb</Output>
+      <Time>2014-11-27T22:36:00.9856418-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack2.png</Source>
+      <Name>Attack Sprites\Attack2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack2.xnb</Output>
+      <Time>2014-11-27T22:36:00.7176265-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack3.png</Source>
+      <Name>Attack Sprites\Attack3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack3.xnb</Output>
+      <Time>2014-11-27T22:36:00.7316273-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack4.png</Source>
+      <Name>Attack Sprites\Attack4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack4.xnb</Output>
+      <Time>2014-11-27T22:36:00.761629-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack5.png</Source>
+      <Name>Attack Sprites\Attack5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack5.xnb</Output>
+      <Time>2014-11-27T22:36:00.7846303-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack6.png</Source>
+      <Name>Attack Sprites\Attack6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack6.xnb</Output>
+      <Time>2014-11-27T22:36:00.814632-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack7.png</Source>
+      <Name>Attack Sprites\Attack7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack7.xnb</Output>
+      <Time>2014-11-27T22:36:00.8386334-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack8.png</Source>
+      <Name>Attack Sprites\Attack8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack8.xnb</Output>
+      <Time>2014-11-27T22:36:00.8646349-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Attack9.png</Source>
+      <Name>Attack Sprites\Attack9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack9.xnb</Output>
+      <Time>2014-11-27T22:36:00.8926365-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Blow1.png</Source>
+      <Name>Attack Sprites\Blow1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Blow1.xnb</Output>
+      <Time>2014-11-27T22:36:01.0016427-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Blow2.png</Source>
+      <Name>Attack Sprites\Blow2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Blow2.xnb</Output>
+      <Time>2014-11-27T22:36:01.0336445-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Blow3.png</Source>
+      <Name>Attack Sprites\Blow3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Blow3.xnb</Output>
+      <Time>2014-11-27T22:36:01.0396449-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Darkness1.png</Source>
+      <Name>Attack Sprites\Darkness1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Darkness1.xnb</Output>
+      <Time>2014-11-27T22:36:01.0746469-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Darkness2.png</Source>
+      <Name>Attack Sprites\Darkness2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Darkness2.xnb</Output>
+      <Time>2014-11-27T22:36:01.0776471-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Darkness3.png</Source>
+      <Name>Attack Sprites\Darkness3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Darkness3.xnb</Output>
+      <Time>2014-11-27T22:36:01.1416507-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Death1.png</Source>
+      <Name>Attack Sprites\Death1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Death1.xnb</Output>
+      <Time>2014-11-27T22:36:01.1726525-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Earth1.png</Source>
+      <Name>Attack Sprites\Earth1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Earth1.xnb</Output>
+      <Time>2014-11-27T22:36:01.1936526-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Earth2.png</Source>
+      <Name>Attack Sprites\Earth2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Earth2.xnb</Output>
+      <Time>2014-11-27T22:36:01.2226531-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Earth3.png</Source>
+      <Name>Attack Sprites\Earth3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Earth3.xnb</Output>
+      <Time>2014-11-27T22:36:01.2806564-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Fire1.png</Source>
+      <Name>Attack Sprites\Fire1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Fire1.xnb</Output>
+      <Time>2014-11-27T22:36:01.3136583-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Fire2.png</Source>
+      <Name>Attack Sprites\Fire2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Fire2.xnb</Output>
+      <Time>2014-11-27T22:36:01.359661-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Fire3.png</Source>
+      <Name>Attack Sprites\Fire3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Fire3.xnb</Output>
+      <Time>2014-11-27T22:36:01.4416657-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Fire4.png</Source>
+      <Name>Attack Sprites\Fire4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Fire4.xnb</Output>
+      <Time>2014-11-27T22:36:01.4786678-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Gun1.png</Source>
+      <Name>Attack Sprites\Gun1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Gun1.xnb</Output>
+      <Time>2014-11-27T22:36:01.5136698-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Gun2.png</Source>
+      <Name>Attack Sprites\Gun2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Gun2.xnb</Output>
+      <Time>2014-11-27T22:36:01.5636726-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Heal1.png</Source>
+      <Name>Attack Sprites\Heal1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal1.xnb</Output>
+      <Time>2014-11-27T22:36:01.6006747-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Heal2.png</Source>
+      <Name>Attack Sprites\Heal2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal2.xnb</Output>
+      <Time>2014-11-27T22:36:01.6456773-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Heal3.png</Source>
+      <Name>Attack Sprites\Heal3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal3.xnb</Output>
+      <Time>2014-11-27T22:36:01.7066808-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Heal4.png</Source>
+      <Name>Attack Sprites\Heal4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal4.xnb</Output>
+      <Time>2014-11-27T22:36:01.7876854-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Heal5.png</Source>
+      <Name>Attack Sprites\Heal5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal5.xnb</Output>
+      <Time>2014-11-27T22:36:01.8366882-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Heal6.png</Source>
+      <Name>Attack Sprites\Heal6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal6.xnb</Output>
+      <Time>2014-11-27T22:36:01.8706902-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Ice1.png</Source>
+      <Name>Attack Sprites\Ice1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice1.xnb</Output>
+      <Time>2014-11-27T22:36:01.920693-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Ice2.png</Source>
+      <Name>Attack Sprites\Ice2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice2.xnb</Output>
+      <Time>2014-11-27T22:36:01.9486947-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Ice3.png</Source>
+      <Name>Attack Sprites\Ice3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice3.xnb</Output>
+      <Time>2014-11-27T22:36:01.9906971-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Ice4.png</Source>
+      <Name>Attack Sprites\Ice4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice4.xnb</Output>
+      <Time>2014-11-27T22:36:02.0467003-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Ice5.png</Source>
+      <Name>Attack Sprites\Ice5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice5.xnb</Output>
+      <Time>2014-11-27T22:36:02.1177043-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Light1.png</Source>
+      <Name>Attack Sprites\Light1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light1.xnb</Output>
+      <Time>2014-11-27T22:36:02.1557065-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Light2.png</Source>
+      <Name>Attack Sprites\Light2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light2.xnb</Output>
+      <Time>2014-11-27T22:36:02.1897084-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Light3.png</Source>
+      <Name>Attack Sprites\Light3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light3.xnb</Output>
+      <Time>2014-11-27T22:36:02.2897119-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Light4.png</Source>
+      <Name>Attack Sprites\Light4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light4.xnb</Output>
+      <Time>2014-11-27T22:36:02.3187136-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Light5.png</Source>
+      <Name>Attack Sprites\Light5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light5.xnb</Output>
+      <Time>2014-11-27T22:36:02.3507154-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Light6.png</Source>
+      <Name>Attack Sprites\Light6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light6.xnb</Output>
+      <Time>2014-11-27T22:36:02.3987182-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Light7.png</Source>
+      <Name>Attack Sprites\Light7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light7.xnb</Output>
+      <Time>2014-11-27T22:36:02.483723-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Meteor.png</Source>
+      <Name>Attack Sprites\Meteor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Meteor.xnb</Output>
+      <Time>2014-11-27T22:36:02.535726-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Spear1.png</Source>
+      <Name>Attack Sprites\Spear1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Spear1.xnb</Output>
+      <Time>2014-11-27T22:36:02.5637276-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Spear2.png</Source>
+      <Name>Attack Sprites\Spear2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Spear2.xnb</Output>
+      <Time>2014-11-27T22:36:02.5847288-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Spear3.png</Source>
+      <Name>Attack Sprites\Spear3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Spear3.xnb</Output>
+      <Time>2014-11-27T22:36:02.6437322-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special1.png</Source>
+      <Name>Attack Sprites\Special1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special1.xnb</Output>
+      <Time>2014-11-27T22:36:02.6827344-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special10.png</Source>
+      <Name>Attack Sprites\Special10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special10.xnb</Output>
+      <Time>2014-11-27T22:36:02.9667506-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special11.png</Source>
+      <Name>Attack Sprites\Special11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special11.xnb</Output>
+      <Time>2014-11-27T22:36:03.0577559-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special12.png</Source>
+      <Name>Attack Sprites\Special12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special12.xnb</Output>
+      <Time>2014-11-27T22:36:03.1337602-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special13.png</Source>
+      <Name>Attack Sprites\Special13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special13.xnb</Output>
+      <Time>2014-11-27T22:36:03.2067644-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special14.png</Source>
+      <Name>Attack Sprites\Special14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special14.xnb</Output>
+      <Time>2014-11-27T22:36:03.2777662-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special15.png</Source>
+      <Name>Attack Sprites\Special15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special15.xnb</Output>
+      <Time>2014-11-27T22:36:03.34477-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special16.png</Source>
+      <Name>Attack Sprites\Special16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special16.xnb</Output>
+      <Time>2014-11-27T22:36:03.4097738-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special17.png</Source>
+      <Name>Attack Sprites\Special17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special17.xnb</Output>
+      <Time>2014-11-27T22:36:03.4777776-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special2.png</Source>
+      <Name>Attack Sprites\Special2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special2.xnb</Output>
+      <Time>2014-11-27T22:36:02.7297371-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special3.png</Source>
+      <Name>Attack Sprites\Special3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special3.xnb</Output>
+      <Time>2014-11-27T22:36:02.7597388-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special4.png</Source>
+      <Name>Attack Sprites\Special4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special4.xnb</Output>
+      <Time>2014-11-27T22:36:02.7747397-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special5.png</Source>
+      <Name>Attack Sprites\Special5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special5.xnb</Output>
+      <Time>2014-11-27T22:36:02.8227424-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special6.png</Source>
+      <Name>Attack Sprites\Special6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special6.xnb</Output>
+      <Time>2014-11-27T22:36:02.8597445-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special7.png</Source>
+      <Name>Attack Sprites\Special7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special7.xnb</Output>
+      <Time>2014-11-27T22:36:02.8767455-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special8.png</Source>
+      <Name>Attack Sprites\Special8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special8.xnb</Output>
+      <Time>2014-11-27T22:36:02.8997468-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Special9.png</Source>
+      <Name>Attack Sprites\Special9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special9.xnb</Output>
+      <Time>2014-11-27T22:36:02.9237482-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\State1.png</Source>
+      <Name>Attack Sprites\State1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State1.xnb</Output>
+      <Time>2014-11-27T22:36:03.5127796-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\State2.png</Source>
+      <Name>Attack Sprites\State2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State2.xnb</Output>
+      <Time>2014-11-27T22:36:03.553782-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\State3.png</Source>
+      <Name>Attack Sprites\State3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State3.xnb</Output>
+      <Time>2014-11-27T22:36:03.5797835-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\State4.png</Source>
+      <Name>Attack Sprites\State4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State4.xnb</Output>
+      <Time>2014-11-27T22:36:03.5997846-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\State5.png</Source>
+      <Name>Attack Sprites\State5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State5.xnb</Output>
+      <Time>2014-11-27T22:36:03.6487874-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\State6.png</Source>
+      <Name>Attack Sprites\State6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State6.xnb</Output>
+      <Time>2014-11-27T22:36:03.6607881-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword1.png</Source>
+      <Name>Attack Sprites\Sword1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword1.xnb</Output>
+      <Time>2014-11-27T22:36:03.7007904-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword10.png</Source>
+      <Name>Attack Sprites\Sword10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword10.xnb</Output>
+      <Time>2014-11-27T22:36:04.0528105-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword2.png</Source>
+      <Name>Attack Sprites\Sword2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword2.xnb</Output>
+      <Time>2014-11-27T22:36:03.7307921-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword3.png</Source>
+      <Name>Attack Sprites\Sword3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword3.xnb</Output>
+      <Time>2014-11-27T22:36:03.7677942-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword4.png</Source>
+      <Name>Attack Sprites\Sword4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword4.xnb</Output>
+      <Time>2014-11-27T22:36:03.8037963-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword5.png</Source>
+      <Name>Attack Sprites\Sword5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword5.xnb</Output>
+      <Time>2014-11-27T22:36:03.8377982-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword6.png</Source>
+      <Name>Attack Sprites\Sword6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword6.xnb</Output>
+      <Time>2014-11-27T22:36:03.8637997-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword7.png</Source>
+      <Name>Attack Sprites\Sword7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword7.xnb</Output>
+      <Time>2014-11-27T22:36:03.920803-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword8.png</Source>
+      <Name>Attack Sprites\Sword8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword8.xnb</Output>
+      <Time>2014-11-27T22:36:03.9968073-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Sword9.png</Source>
+      <Name>Attack Sprites\Sword9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword9.xnb</Output>
+      <Time>2014-11-27T22:36:04.0348095-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Thunder1.png</Source>
+      <Name>Attack Sprites\Thunder1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Thunder1.xnb</Output>
+      <Time>2014-11-27T22:36:04.1208144-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Thunder2.png</Source>
+      <Name>Attack Sprites\Thunder2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Thunder2.xnb</Output>
+      <Time>2014-11-27T22:36:04.148816-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Thunder3.png</Source>
+      <Name>Attack Sprites\Thunder3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Thunder3.xnb</Output>
+      <Time>2014-11-27T22:36:04.1628168-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Thunder4.png</Source>
+      <Name>Attack Sprites\Thunder4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Thunder4.xnb</Output>
+      <Time>2014-11-27T22:36:04.1888183-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Water1.png</Source>
+      <Name>Attack Sprites\Water1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Water1.xnb</Output>
+      <Time>2014-11-27T22:36:04.2138197-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Water2.png</Source>
+      <Name>Attack Sprites\Water2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Water2.xnb</Output>
+      <Time>2014-11-27T22:36:04.2388212-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Water3.png</Source>
+      <Name>Attack Sprites\Water3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Water3.xnb</Output>
+      <Time>2014-11-27T22:36:04.2678217-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Wind1.png</Source>
+      <Name>Attack Sprites\Wind1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Wind1.xnb</Output>
+      <Time>2014-11-27T22:36:04.2948221-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Wind2.png</Source>
+      <Name>Attack Sprites\Wind2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Wind2.xnb</Output>
+      <Time>2014-11-27T22:36:04.327824-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Attack Sprites\Wind3.png</Source>
+      <Name>Attack Sprites\Wind3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Wind3.xnb</Output>
+      <Time>2014-11-27T22:36:04.3898276-06:00</Time>
+    </Item>
+    <Item>
       <Source>Fonts\ControlFont.spritefont</Source>
       <Name>Fonts\ControlFont</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -875,15 +2702,6 @@
       <Time>2014-11-25T11:04:46.5621361-06:00</Time>
     </Item>
     <Item>
-      <Source>Tilesets\Resources\magecity_0.png</Source>
-      <Name>Tilesets\Resources\magecity_0</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Tilesets\Resources\magecity_0.xnb</Output>
-      <Time>2014-11-25T09:47:40.7948646-06:00</Time>
-    </Item>
-    <Item>
       <Source>Game\Levels\Maps\Village.xml</Source>
       <Name>Game\Levels\Maps\Village</Name>
       <Importer>XmlImporter</Importer>
@@ -891,6 +2709,24 @@
       <Options>None</Options>
       <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Village.xnb</Output>
       <Time>2014-11-25T11:04:46.6401363-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Game\Classes\Neil.xml</Source>
+      <Name>Game\Classes\Neil</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Classes\Neil.xnb</Output>
+      <Time>2014-11-27T20:02:16.2802297-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Game\Monsters\Ghost.xml</Source>
+      <Name>Game\Monsters\Ghost</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Monsters\Ghost.xnb</Output>
+      <Time>2014-11-27T20:14:28.5197606-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -931,7 +2767,11 @@
       </Assembly>
       <Assembly>
         <Key>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\GameLib\bin\Debug\GameLib.dll</Key>
-        <Value>2014-11-23T20:07:02.8400286-06:00</Value>
+        <Value>2014-11-27T15:01:41.3287773-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\FunctionalityLib\bin\x86\Debug\FunctionalityLib.dll</Key>
+        <Value>2014-11-28T19:42:54.1008906-06:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>

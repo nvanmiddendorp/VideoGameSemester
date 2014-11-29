@@ -20,6 +20,7 @@ namespace FunctionalityLib.SpriteClasses
         Vector2 position;
         Vector2 velocity;
         float speed = 1.5f;
+        public float scale = 1f;
 
         #endregion
 
@@ -99,11 +100,7 @@ namespace FunctionalityLib.SpriteClasses
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(
-                texture,
-                position,
-                animations[currentAnimation].CurrentFrameRect,
-                Color.White);
+            spriteBatch.Draw(texture, position, animations[currentAnimation].CurrentFrameRect, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0f);
         }
 
         public void LockToMap()

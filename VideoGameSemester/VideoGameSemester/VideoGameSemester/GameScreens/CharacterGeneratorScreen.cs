@@ -11,6 +11,9 @@ using FunctionalityLib.Controls;
 using FunctionalityLib.SpriteClasses;
 using FunctionalityLib.TileEngine;
 using FunctionalityLib.WorldClasses;
+using FunctionalityLib.ItemClasses;
+using FunctionalityLib.CharacterClasses;
+using FunctionalityLib.SkillClasses;
 using VideoGameSemester.Components;
 using GameLib.WorldClasses;
 
@@ -25,6 +28,8 @@ namespace VideoGameSemester.GameScreens
 
         PictureBox characterImage;
         Texture2D[] characterImages;
+
+        Entity Neil;
 
         string[] characters = { "Actor1", "Actor2", "Actor3", "Actor4", "Actor5" };
 
@@ -57,7 +62,7 @@ namespace VideoGameSemester.GameScreens
 
         protected override void LoadContent()
         {
-            base.LoadContent();
+            base.LoadContent();   
 
             LoadImages();
             CreateControls();
@@ -166,7 +171,21 @@ namespace VideoGameSemester.GameScreens
                 characterImages[characterSelector.SelectedIndex],
                 animations);
 
-            GamePlayScreen.Player = new Player(GameRef, sprite);
+            EntityGender gender = EntityGender.Male;
+
+            foreach (EntityData entData in DataManager.EntityData.Values)
+            {
+                if (entData.EntityName == "Neil")
+                {
+                    Neil = new Entity("Neil", entData, gender, EntityType.Character);
+                    Neil.Health.SetMaximum(1000);
+                    Neil.Health.SetCurrent(1000);
+                }
+            }
+
+            Character character = new Character(Neil, sprite);
+
+            GamePlayScreen.Player = new Player(GameRef, character);
 
             //place the player in the map
             GamePlayScreen.Player.Sprite.Position = new Vector2(200, 200);

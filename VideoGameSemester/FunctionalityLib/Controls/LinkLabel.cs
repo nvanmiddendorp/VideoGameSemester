@@ -12,7 +12,7 @@ namespace FunctionalityLib.Controls
     {
         #region Fields and Properties
 
-        Color selectedColor = Color.Red;
+        Color selectedColor = Color.DarkRed;
 
         public Color SelectedColor
         {

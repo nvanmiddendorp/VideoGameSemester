@@ -55,9 +55,9 @@ namespace VideoGameSemester.GameScreens
             ControlManager.Add(backgroundImage);
 
             titleLabel = new Label();
-            titleLabel.Position = new Vector2(235, 200);
+            titleLabel.Position = new Vector2(GameRef.ScreenRectangle.Width / 2 - 295, 100);
             titleLabel.Text = "TOTALLY NOT A FINAL FANTASY RIPOFF!";
-            titleLabel.Color = Color.White;
+            titleLabel.Color = Color.Black;
             titleLabel.TabStop = false;
             titleLabel.HasFocus = false;
 

@@ -8,11 +8,11 @@ namespace FunctionalityLib.SpriteClasses
 {
     public enum AnimationKey { Down, Left, Right, Up }
 
-    public class Animation : ICloneable
+    public class Animation
     {
         #region Field Region
 
-        Rectangle[] frames;
+        public Rectangle[] frames;
         int framesPerSecond;
         TimeSpan frameLength;
         TimeSpan frameTimer;

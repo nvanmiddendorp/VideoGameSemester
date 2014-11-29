@@ -15,6 +15,10 @@ namespace VideoGameSemester.GameScreens
         #region Field region
 
         Texture2D backgroundImage;
+        Texture2D textBoxTitle;
+        Texture2D textBoxEnter;
+        Rectangle textBoxTitleRectangle;
+        Rectangle textBoxEnterRectangle;
         LinkLabel startLabel;
         Label titleLabel;
 
@@ -35,12 +39,17 @@ namespace VideoGameSemester.GameScreens
         {
             ContentManager Content = GameRef.Content;
 
-            backgroundImage = Content.Load<Texture2D>(@"Backgrounds\Resources\Tower2");
-
             base.LoadContent();
 
+            backgroundImage = Content.Load<Texture2D>(@"Backgrounds\Resources\Tower2");
+            textBoxTitle = Content.Load<Texture2D>(@"GUI\textbox");
+            textBoxEnter = Content.Load<Texture2D>(@"GUI\textbox");
+
+            textBoxTitleRectangle = new Rectangle((GameRef.ScreenRectangle.Width) - (GameRef.ScreenRectangle.Width), 100, GameRef.ScreenRectangle.Width, 40);
+            textBoxEnterRectangle = new Rectangle((GameRef.ScreenRectangle.Width / 2) - (GameRef.ScreenRectangle.Width / 4), (GameRef.ScreenRectangle.Height / 2) + (GameRef.ScreenRectangle.Height / 4), (GameRef.ScreenRectangle.Width / 2), 40);
+
             startLabel = new LinkLabel();
-            startLabel.Position = new Vector2(350, 600);
+            startLabel.Position = new Vector2((GameRef.ScreenRectangle.Width / 2) - 160, (GameRef.ScreenRectangle.Height / 2) + (GameRef.ScreenRectangle.Height / 4));
             startLabel.Text = "Press ENTER to begin";
             startLabel.Color = Color.White;
             startLabel.TabStop = true;
@@ -48,9 +57,9 @@ namespace VideoGameSemester.GameScreens
             startLabel.Selected += new EventHandler(startLabel_Selected);
 
             titleLabel = new Label();
-            titleLabel.Position = new Vector2(235, 200);
+            titleLabel.Position = new Vector2(GameRef.ScreenRectangle.Width/2 - 295, 100);
             titleLabel.Text = "TOTALLY NOT A FINAL FANTASY RIPOFF!";
-            titleLabel.Color = Color.White;
+            titleLabel.Color = Color.Black;
             titleLabel.TabStop = false;
             titleLabel.HasFocus = false;
 
@@ -75,6 +84,16 @@ namespace VideoGameSemester.GameScreens
                 backgroundImage,
                 GameRef.ScreenRectangle,
                 Color.White);
+
+            GameRef.SpriteBatch.Draw(
+                textBoxEnter,
+                textBoxEnterRectangle,
+                Color.Snow);
+
+            GameRef.SpriteBatch.Draw(
+                textBoxTitle,
+                textBoxTitleRectangle,
+                Color.Snow);
 
             ControlManager.Draw(GameRef.SpriteBatch);
 

@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Input;
 using FunctionalityLib;
 using FunctionalityLib.TileEngine;
 using FunctionalityLib.SpriteClasses;
-using VideoGameSemester.GameScreens;
+using FunctionalityLib.CharacterClasses;
 
 namespace VideoGameSemester.Components
 {
@@ -18,7 +18,7 @@ namespace VideoGameSemester.Components
 
         Camera camera;
         Game1 gameRef;
-        readonly AnimatedSprite sprite;
+        readonly Character character;
 
         #endregion
 
@@ -32,18 +32,23 @@ namespace VideoGameSemester.Components
 
         public AnimatedSprite Sprite
         {
-            get { return sprite; }
+            get { return character.Sprite; }
+        }
+
+        public Character Character
+        {
+            get { return character; }
         }
 
         #endregion
 
         #region Constructor Region
 
-        public Player(Game game, AnimatedSprite sprite)
+        public Player(Game game, Character character)
         {
             gameRef = (Game1)game;
             camera = new Camera(gameRef.ScreenRectangle);
-            this.sprite = sprite;
+            this.character = character;
         }
 
         #endregion
@@ -53,90 +58,76 @@ namespace VideoGameSemester.Components
         public void Update(GameTime gameTime)
         {
             camera.Update(gameTime);
-            sprite.Update(gameTime);
-
-
+            Sprite.Update(gameTime);
 
             if (InputHandler.KeyReleased(Keys.PageUp))
             {
                 camera.ZoomIn();
                 if (camera.CameraMode == CameraMode.Follow)
-                    camera.LockToSprite(sprite);
+                    camera.LockToSprite(Sprite);
             }
             else if (InputHandler.KeyReleased(Keys.PageDown))
             {
                 camera.ZoomOut();
                 if (camera.CameraMode == CameraMode.Follow)
-                    camera.LockToSprite(sprite);
+                    camera.LockToSprite(Sprite);
             }
 
             Vector2 motion = new Vector2();
 
             if (InputHandler.KeyDown(Keys.W))
             {
-                sprite.CurrentAnimation = AnimationKey.Up;
+                Sprite.CurrentAnimation = AnimationKey.Up;
                 motion.Y = -1;
             }
             else if (InputHandler.KeyDown(Keys.S))
             {
-                sprite.CurrentAnimation = AnimationKey.Down;
+                Sprite.CurrentAnimation = AnimationKey.Down;
                 motion.Y = 1;
             }
 
             if (InputHandler.KeyDown(Keys.A))
             {
-                sprite.CurrentAnimation = AnimationKey.Left;
+                Sprite.CurrentAnimation = AnimationKey.Left;
                 motion.X = -1;
             }
             else if (InputHandler.KeyDown(Keys.D))
             {
-                sprite.CurrentAnimation = AnimationKey.Right;
+                Sprite.CurrentAnimation = AnimationKey.Right;
                 motion.X = 1;
             }
 
             if (motion != Vector2.Zero)
             {
-                sprite.IsAnimating = true;
+                Sprite.IsAnimating = true;
                 motion.Normalize();
 
-                sprite.Position += motion * sprite.Speed;             
+                Sprite.Position += motion * Sprite.Speed;             
 
-                if (!gameRef.GamePlayScreen.CheckUnwalkableTile(sprite, motion))
-                    sprite.Position += motion * sprite.Speed;  
+                if (!gameRef.GamePlayScreen.CheckUnwalkableTile(Sprite, motion))
+                    Sprite.Position += motion * Sprite.Speed;  
                 else
-                    sprite.Position -= motion * sprite.Speed;  
+                    Sprite.Position -= motion * Sprite.Speed;  
 
                 if (camera.CameraMode == CameraMode.Follow)
-                    camera.LockToSprite(sprite);
+                    camera.LockToSprite(Sprite);
             }
             else
             {
-                sprite.IsAnimating = false;
+                Sprite.IsAnimating = false;
             }
 
-            sprite.LockToMap();
-
-            /*
-            if (InputHandler.KeyReleased(Keys.F))
-            {
-                camera.ToggleCameraMode();
-                if (camera.CameraMode == CameraMode.Follow)
-                    camera.LockToSprite(sprite);
-            }
-
-            if (camera.CameraMode != CameraMode.Follow)
-            {
-                if (InputHandler.KeyReleased(Keys.C))
-                {
-                    camera.LockToSprite(sprite);
-                }
-            }
-            */
+            Sprite.LockToMap();
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            sprite.Draw(gameTime, spriteBatch);
+            Sprite.Draw(gameTime, spriteBatch);
+        }
+
+        public void Attack(Monster monster)
+        {
+            monster.Entity.Health.Damage(50);
         }
 
         #endregion

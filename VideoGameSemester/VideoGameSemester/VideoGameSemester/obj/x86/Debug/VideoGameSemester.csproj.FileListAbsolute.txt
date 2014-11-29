@@ -8,7 +8,6 @@ C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSeme
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\FunctionalityLib.pdb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\GameLib.dll
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\GameLib.pdb
-C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Titlescreen.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Resources\Book.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Resources\Castle.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Resources\CrossedSwords.xnb
@@ -67,8 +66,6 @@ C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSeme
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\!Other3.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\!Switch1.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\!Switch2.xnb
-C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\$BigMonster1.xnb
-C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\$BigMonster2.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\$Coffin.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Actor1.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Actor2.xnb
@@ -87,9 +84,6 @@ C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSeme
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Evil.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Insane1.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Insane2.xnb
-C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Monster1.xnb
-C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Monster2.xnb
-C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\Monster3.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\People1.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\People2.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\PlayerSprites\People3.xnb
@@ -107,3 +101,213 @@ C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSeme
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Starting Level.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Tilesets\Resources\magecity_0.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Levels\Maps\Village.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Resources\Titlescreen.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Brick.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Bridge.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Castle1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Castle2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Castle3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Cliff.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Clouds.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Crystal.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DarkSpace.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DemonCastle1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DemonCastle2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DemonCastle3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DemonicWorld.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Desert.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\DirtCave.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Factory.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Forest1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Forest2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Fort1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Fort2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Grassland.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\GrassMaze.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\IceCave.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\IceMaze.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\InBody.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Lava.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\LavaCave.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Mine.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\PoisonSwamp.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Port.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\RockCave.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Room1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Room2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Room3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Room4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Ruins.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Sea.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Ship.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Sky.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Snowfield.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Stone5.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Temple.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Tent.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Tower.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Town5.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Background\Wasteland.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Castle.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Clouds.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Cobblestones1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Cobblestones2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Cobblestones3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Cobblestones4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Crystal1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Crystal2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DarkSpace.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DecorativeTile.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DemonCastle.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DemonicWorld1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DemonicWorld2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Desert.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Dirt1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Dirt2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DirtCave.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\DirtField.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Factory1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Factory2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Fort.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Grassland.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\GrassMaze.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\IceCave.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\IceMaze.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\InBody.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Lava1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Lava2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\LavaCave.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Meadow.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Paved.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\PoisonSwamp.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Road1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Road2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Road3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\RockCave1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\RockCave2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Ruins1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Ruins2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Ruins3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Sand.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Ship.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Sky.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Snow.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Snowfield.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Stone1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Stone2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Stone3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Tent.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Translucent.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Wasteland.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\WireMesh.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Wood1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Backgrounds\Battlebacks Foreground\Wood2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\GUI\textbox.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\$BigMonster1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\$BigMonster2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\Monster1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\Monster2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Monsters\Monster3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Classes\Neil.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Monsters\Ghost.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack10.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack11.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack12.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack5.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack6.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack7.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack8.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Attack9.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Blow1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Blow2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Blow3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Darkness1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Darkness2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Darkness3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Death1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Earth1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Earth2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Earth3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Fire1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Fire2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Fire3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Fire4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Gun1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Gun2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal5.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Heal6.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Ice5.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light5.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light6.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Light7.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Meteor.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Spear1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Spear2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Spear3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special10.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special11.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special12.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special13.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special14.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special15.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special16.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special17.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special5.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special6.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special7.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special8.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Special9.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State5.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\State6.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword10.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword5.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword6.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword7.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword8.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Sword9.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Thunder1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Thunder2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Thunder3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Thunder4.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Water1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Water2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Water3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Wind1.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Wind2.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Wind3.xnb

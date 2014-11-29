@@ -24,7 +24,7 @@ namespace FunctionalityLib.Controls
         Texture2D rightTexture;
         Texture2D stopTexture;
 
-        Color selectedColor = Color.Red;
+        Color selectedColor = Color.DarkRed;
         int maxItemWidth;
         int selectedItem;
 

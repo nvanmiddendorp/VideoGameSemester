@@ -1,4 +1,4 @@
-Content\Backgrounds\Titlescreen.xnb
+Content\Backgrounds\Resources\Titlescreen.xnb
 Content\Backgrounds\Resources\Book.xnb
 Content\Backgrounds\Resources\Castle.xnb
 Content\Backgrounds\Resources\CrossedSwords.xnb
@@ -57,8 +57,8 @@ Content\PlayerSprites\!Other2.xnb
 Content\PlayerSprites\!Other3.xnb
 Content\PlayerSprites\!Switch1.xnb
 Content\PlayerSprites\!Switch2.xnb
-Content\PlayerSprites\$BigMonster1.xnb
-Content\PlayerSprites\$BigMonster2.xnb
+Content\Monsters\$BigMonster1.xnb
+Content\Monsters\$BigMonster2.xnb
 Content\PlayerSprites\$Coffin.xnb
 Content\PlayerSprites\Actor1.xnb
 Content\PlayerSprites\Actor2.xnb
@@ -77,9 +77,9 @@ Content\PlayerSprites\Damage4.xnb
 Content\PlayerSprites\Evil.xnb
 Content\PlayerSprites\Insane1.xnb
 Content\PlayerSprites\Insane2.xnb
-Content\PlayerSprites\Monster1.xnb
-Content\PlayerSprites\Monster2.xnb
-Content\PlayerSprites\Monster3.xnb
+Content\Monsters\Monster1.xnb
+Content\Monsters\Monster2.xnb
+Content\Monsters\Monster3.xnb
 Content\PlayerSprites\People1.xnb
 Content\PlayerSprites\People2.xnb
 Content\PlayerSprites\People3.xnb
@@ -92,8 +92,212 @@ Content\PlayerSprites\Riding.xnb
 Content\PlayerSprites\Spiritual.xnb
 Content\PlayerSprites\Vehicle.xnb
 Content\GUI\listBoxImage.xnb
+Content\Tilesets\Resources\magecity_0.xnb
+Content\Backgrounds\Battlebacks Background\Brick.xnb
+Content\Backgrounds\Battlebacks Background\Bridge.xnb
+Content\Backgrounds\Battlebacks Background\Castle1.xnb
+Content\Backgrounds\Battlebacks Background\Castle2.xnb
+Content\Backgrounds\Battlebacks Background\Castle3.xnb
+Content\Backgrounds\Battlebacks Background\Cliff.xnb
+Content\Backgrounds\Battlebacks Background\Clouds.xnb
+Content\Backgrounds\Battlebacks Background\Crystal.xnb
+Content\Backgrounds\Battlebacks Background\DarkSpace.xnb
+Content\Backgrounds\Battlebacks Background\DemonCastle1.xnb
+Content\Backgrounds\Battlebacks Background\DemonCastle2.xnb
+Content\Backgrounds\Battlebacks Background\DemonCastle3.xnb
+Content\Backgrounds\Battlebacks Background\DemonicWorld.xnb
+Content\Backgrounds\Battlebacks Background\Desert.xnb
+Content\Backgrounds\Battlebacks Background\DirtCave.xnb
+Content\Backgrounds\Battlebacks Background\Factory.xnb
+Content\Backgrounds\Battlebacks Background\Forest1.xnb
+Content\Backgrounds\Battlebacks Background\Forest2.xnb
+Content\Backgrounds\Battlebacks Background\Fort1.xnb
+Content\Backgrounds\Battlebacks Background\Fort2.xnb
+Content\Backgrounds\Battlebacks Background\Grassland.xnb
+Content\Backgrounds\Battlebacks Background\GrassMaze.xnb
+Content\Backgrounds\Battlebacks Background\IceCave.xnb
+Content\Backgrounds\Battlebacks Background\IceMaze.xnb
+Content\Backgrounds\Battlebacks Background\InBody.xnb
+Content\Backgrounds\Battlebacks Background\Lava.xnb
+Content\Backgrounds\Battlebacks Background\LavaCave.xnb
+Content\Backgrounds\Battlebacks Background\Mine.xnb
+Content\Backgrounds\Battlebacks Background\PoisonSwamp.xnb
+Content\Backgrounds\Battlebacks Background\Port.xnb
+Content\Backgrounds\Battlebacks Background\RockCave.xnb
+Content\Backgrounds\Battlebacks Background\Room1.xnb
+Content\Backgrounds\Battlebacks Background\Room2.xnb
+Content\Backgrounds\Battlebacks Background\Room3.xnb
+Content\Backgrounds\Battlebacks Background\Room4.xnb
+Content\Backgrounds\Battlebacks Background\Ruins.xnb
+Content\Backgrounds\Battlebacks Background\Sea.xnb
+Content\Backgrounds\Battlebacks Background\Ship.xnb
+Content\Backgrounds\Battlebacks Background\Sky.xnb
+Content\Backgrounds\Battlebacks Background\Snowfield.xnb
+Content\Backgrounds\Battlebacks Background\Stone1.xnb
+Content\Backgrounds\Battlebacks Background\Stone2.xnb
+Content\Backgrounds\Battlebacks Background\Stone3.xnb
+Content\Backgrounds\Battlebacks Background\Stone4.xnb
+Content\Backgrounds\Battlebacks Background\Stone5.xnb
+Content\Backgrounds\Battlebacks Background\Temple.xnb
+Content\Backgrounds\Battlebacks Background\Tent.xnb
+Content\Backgrounds\Battlebacks Background\Tower.xnb
+Content\Backgrounds\Battlebacks Background\Town1.xnb
+Content\Backgrounds\Battlebacks Background\Town2.xnb
+Content\Backgrounds\Battlebacks Background\Town3.xnb
+Content\Backgrounds\Battlebacks Background\Town4.xnb
+Content\Backgrounds\Battlebacks Background\Town5.xnb
+Content\Backgrounds\Battlebacks Background\Wasteland.xnb
+Content\Backgrounds\Battlebacks Foreground\Castle.xnb
+Content\Backgrounds\Battlebacks Foreground\Clouds.xnb
+Content\Backgrounds\Battlebacks Foreground\Cobblestones1.xnb
+Content\Backgrounds\Battlebacks Foreground\Cobblestones2.xnb
+Content\Backgrounds\Battlebacks Foreground\Cobblestones3.xnb
+Content\Backgrounds\Battlebacks Foreground\Cobblestones4.xnb
+Content\Backgrounds\Battlebacks Foreground\Crystal1.xnb
+Content\Backgrounds\Battlebacks Foreground\Crystal2.xnb
+Content\Backgrounds\Battlebacks Foreground\DarkSpace.xnb
+Content\Backgrounds\Battlebacks Foreground\DecorativeTile.xnb
+Content\Backgrounds\Battlebacks Foreground\DemonCastle.xnb
+Content\Backgrounds\Battlebacks Foreground\DemonicWorld1.xnb
+Content\Backgrounds\Battlebacks Foreground\DemonicWorld2.xnb
+Content\Backgrounds\Battlebacks Foreground\Desert.xnb
+Content\Backgrounds\Battlebacks Foreground\Dirt1.xnb
+Content\Backgrounds\Battlebacks Foreground\Dirt2.xnb
+Content\Backgrounds\Battlebacks Foreground\DirtCave.xnb
+Content\Backgrounds\Battlebacks Foreground\DirtField.xnb
+Content\Backgrounds\Battlebacks Foreground\Factory1.xnb
+Content\Backgrounds\Battlebacks Foreground\Factory2.xnb
+Content\Backgrounds\Battlebacks Foreground\Fort.xnb
+Content\Backgrounds\Battlebacks Foreground\Grassland.xnb
+Content\Backgrounds\Battlebacks Foreground\GrassMaze.xnb
+Content\Backgrounds\Battlebacks Foreground\IceCave.xnb
+Content\Backgrounds\Battlebacks Foreground\IceMaze.xnb
+Content\Backgrounds\Battlebacks Foreground\InBody.xnb
+Content\Backgrounds\Battlebacks Foreground\Lava1.xnb
+Content\Backgrounds\Battlebacks Foreground\Lava2.xnb
+Content\Backgrounds\Battlebacks Foreground\LavaCave.xnb
+Content\Backgrounds\Battlebacks Foreground\Meadow.xnb
+Content\Backgrounds\Battlebacks Foreground\Paved.xnb
+Content\Backgrounds\Battlebacks Foreground\PoisonSwamp.xnb
+Content\Backgrounds\Battlebacks Foreground\Road1.xnb
+Content\Backgrounds\Battlebacks Foreground\Road2.xnb
+Content\Backgrounds\Battlebacks Foreground\Road3.xnb
+Content\Backgrounds\Battlebacks Foreground\RockCave1.xnb
+Content\Backgrounds\Battlebacks Foreground\RockCave2.xnb
+Content\Backgrounds\Battlebacks Foreground\Ruins1.xnb
+Content\Backgrounds\Battlebacks Foreground\Ruins2.xnb
+Content\Backgrounds\Battlebacks Foreground\Ruins3.xnb
+Content\Backgrounds\Battlebacks Foreground\Sand.xnb
+Content\Backgrounds\Battlebacks Foreground\Ship.xnb
+Content\Backgrounds\Battlebacks Foreground\Sky.xnb
+Content\Backgrounds\Battlebacks Foreground\Snow.xnb
+Content\Backgrounds\Battlebacks Foreground\Snowfield.xnb
+Content\Backgrounds\Battlebacks Foreground\Stone1.xnb
+Content\Backgrounds\Battlebacks Foreground\Stone2.xnb
+Content\Backgrounds\Battlebacks Foreground\Stone3.xnb
+Content\Backgrounds\Battlebacks Foreground\Tent.xnb
+Content\Backgrounds\Battlebacks Foreground\Translucent.xnb
+Content\Backgrounds\Battlebacks Foreground\Wasteland.xnb
+Content\Backgrounds\Battlebacks Foreground\WireMesh.xnb
+Content\Backgrounds\Battlebacks Foreground\Wood1.xnb
+Content\Backgrounds\Battlebacks Foreground\Wood2.xnb
+Content\GUI\textbox.xnb
+Content\Attack Sprites\Attack1.xnb
+Content\Attack Sprites\Attack10.xnb
+Content\Attack Sprites\Attack11.xnb
+Content\Attack Sprites\Attack12.xnb
+Content\Attack Sprites\Attack2.xnb
+Content\Attack Sprites\Attack3.xnb
+Content\Attack Sprites\Attack4.xnb
+Content\Attack Sprites\Attack5.xnb
+Content\Attack Sprites\Attack6.xnb
+Content\Attack Sprites\Attack7.xnb
+Content\Attack Sprites\Attack8.xnb
+Content\Attack Sprites\Attack9.xnb
+Content\Attack Sprites\Blow1.xnb
+Content\Attack Sprites\Blow2.xnb
+Content\Attack Sprites\Blow3.xnb
+Content\Attack Sprites\Darkness1.xnb
+Content\Attack Sprites\Darkness2.xnb
+Content\Attack Sprites\Darkness3.xnb
+Content\Attack Sprites\Death1.xnb
+Content\Attack Sprites\Earth1.xnb
+Content\Attack Sprites\Earth2.xnb
+Content\Attack Sprites\Earth3.xnb
+Content\Attack Sprites\Fire1.xnb
+Content\Attack Sprites\Fire2.xnb
+Content\Attack Sprites\Fire3.xnb
+Content\Attack Sprites\Fire4.xnb
+Content\Attack Sprites\Gun1.xnb
+Content\Attack Sprites\Gun2.xnb
+Content\Attack Sprites\Heal1.xnb
+Content\Attack Sprites\Heal2.xnb
+Content\Attack Sprites\Heal3.xnb
+Content\Attack Sprites\Heal4.xnb
+Content\Attack Sprites\Heal5.xnb
+Content\Attack Sprites\Heal6.xnb
+Content\Attack Sprites\Ice1.xnb
+Content\Attack Sprites\Ice2.xnb
+Content\Attack Sprites\Ice3.xnb
+Content\Attack Sprites\Ice4.xnb
+Content\Attack Sprites\Ice5.xnb
+Content\Attack Sprites\Light1.xnb
+Content\Attack Sprites\Light2.xnb
+Content\Attack Sprites\Light3.xnb
+Content\Attack Sprites\Light4.xnb
+Content\Attack Sprites\Light5.xnb
+Content\Attack Sprites\Light6.xnb
+Content\Attack Sprites\Light7.xnb
+Content\Attack Sprites\Meteor.xnb
+Content\Attack Sprites\Spear1.xnb
+Content\Attack Sprites\Spear2.xnb
+Content\Attack Sprites\Spear3.xnb
+Content\Attack Sprites\Special1.xnb
+Content\Attack Sprites\Special10.xnb
+Content\Attack Sprites\Special11.xnb
+Content\Attack Sprites\Special12.xnb
+Content\Attack Sprites\Special13.xnb
+Content\Attack Sprites\Special14.xnb
+Content\Attack Sprites\Special15.xnb
+Content\Attack Sprites\Special16.xnb
+Content\Attack Sprites\Special17.xnb
+Content\Attack Sprites\Special2.xnb
+Content\Attack Sprites\Special3.xnb
+Content\Attack Sprites\Special4.xnb
+Content\Attack Sprites\Special5.xnb
+Content\Attack Sprites\Special6.xnb
+Content\Attack Sprites\Special7.xnb
+Content\Attack Sprites\Special8.xnb
+Content\Attack Sprites\Special9.xnb
+Content\Attack Sprites\State1.xnb
+Content\Attack Sprites\State2.xnb
+Content\Attack Sprites\State3.xnb
+Content\Attack Sprites\State4.xnb
+Content\Attack Sprites\State5.xnb
+Content\Attack Sprites\State6.xnb
+Content\Attack Sprites\Sword1.xnb
+Content\Attack Sprites\Sword10.xnb
+Content\Attack Sprites\Sword2.xnb
+Content\Attack Sprites\Sword3.xnb
+Content\Attack Sprites\Sword4.xnb
+Content\Attack Sprites\Sword5.xnb
+Content\Attack Sprites\Sword6.xnb
+Content\Attack Sprites\Sword7.xnb
+Content\Attack Sprites\Sword8.xnb
+Content\Attack Sprites\Sword9.xnb
+Content\Attack Sprites\Thunder1.xnb
+Content\Attack Sprites\Thunder2.xnb
+Content\Attack Sprites\Thunder3.xnb
+Content\Attack Sprites\Thunder4.xnb
+Content\Attack Sprites\Water1.xnb
+Content\Attack Sprites\Water2.xnb
+Content\Attack Sprites\Water3.xnb
+Content\Attack Sprites\Wind1.xnb
+Content\Attack Sprites\Wind2.xnb
+Content\Attack Sprites\Wind3.xnb
 Content\Fonts\ControlFont.xnb
 Content\Game\Game.xnb
 Content\Game\Levels\Starting Level.xnb
-Content\Tilesets\Resources\magecity_0.xnb
 Content\Game\Levels\Maps\Village.xnb
+Content\Game\Classes\Neil.xnb
+Content\Game\Monsters\Ghost.xnb

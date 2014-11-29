@@ -23,7 +23,7 @@ namespace VideoGameSemester.GameScreens
 
         //combat screen rolls
         Random random = new Random();
-        int range = 1000;
+        int range = 100;
         int roll;
 
         #endregion
@@ -76,6 +76,7 @@ namespace VideoGameSemester.GameScreens
                 roll = random.Next(1, range);
                 if(roll == 1)
                 {
+                    CombatScreen.battleBegin = true;
                     Transition(ChangeType.Push, GameRef.CombatScreen);
                 }
             }
@@ -145,6 +146,7 @@ namespace VideoGameSemester.GameScreens
 
             return tileMap.CheckDownAndRight(nextRectangle);
         }
+
         #endregion
     }
 }
