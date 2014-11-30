@@ -6,6 +6,7 @@ using System.IO;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using FunctionalityLib;
 using FunctionalityLib.Controls;
 using FunctionalityLib.SpriteClasses;
@@ -24,7 +25,9 @@ namespace VideoGameSemester.GameScreens
         #region Field Region
 
         LeftRightSelector characterSelector;
-        PictureBox backgroundImage;
+        Texture2D backgroundImage;
+        Texture2D textBoxTitle;
+        Rectangle textBoxTitleRectangle;
 
         PictureBox characterImage;
         Texture2D[] characterImages;
@@ -62,7 +65,11 @@ namespace VideoGameSemester.GameScreens
 
         protected override void LoadContent()
         {
-            base.LoadContent();   
+            base.LoadContent();
+
+            textBoxTitle = Game.Content.Load<Texture2D>(@"GUI\textbox");
+            textBoxTitleRectangle = new Rectangle((GameRef.ScreenRectangle.Width) - 780, 100, (GameRef.ScreenRectangle.Width - GameRef.ScreenRectangle.Width/2) + 20, 300);
+            backgroundImage = Game.Content.Load<Texture2D>(@"Backgrounds\Resources\Tower2");
 
             LoadImages();
             CreateControls();
@@ -80,6 +87,16 @@ namespace VideoGameSemester.GameScreens
 
             base.Draw(gameTime);
 
+            GameRef.SpriteBatch.Draw(
+                backgroundImage,
+                GameRef.ScreenRectangle,
+                Color.Snow);
+
+            GameRef.SpriteBatch.Draw(
+                textBoxTitle,
+                textBoxTitleRectangle,
+                Color.Snow * .65f);
+
             ControlManager.Draw(GameRef.SpriteBatch);
 
             GameRef.SpriteBatch.End();
@@ -94,11 +111,6 @@ namespace VideoGameSemester.GameScreens
             Texture2D leftTexture = Game.Content.Load<Texture2D>(@"GUI\leftarrowUp");
             Texture2D rightTexture = Game.Content.Load<Texture2D>(@"GUI\rightarrowUp");
             Texture2D stopTexture = Game.Content.Load<Texture2D>(@"GUI\StopBar");
-
-            backgroundImage = new PictureBox(
-                Game.Content.Load<Texture2D>(@"Backgrounds\Resources\Tower2"),
-                GameRef.ScreenRectangle);
-            ControlManager.Add(backgroundImage);
 
             Label label1 = new Label();
 

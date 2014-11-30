@@ -311,3 +311,9 @@ C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSeme
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Wind1.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Wind2.xnb
 C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Attack Sprites\Wind3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Dungeon9.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Dungeon9.wma
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Battle3.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Darkened Winds.xnb
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Battle3.wma
+C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Darkened Winds.wma

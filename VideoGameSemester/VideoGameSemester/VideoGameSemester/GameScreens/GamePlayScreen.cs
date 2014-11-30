@@ -5,6 +5,8 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+using Microsoft.Xna.Framework.Content;
 using FunctionalityLib;
 using FunctionalityLib.TileEngine;
 using FunctionalityLib.SpriteClasses;
@@ -25,6 +27,8 @@ namespace VideoGameSemester.GameScreens
         Random random = new Random();
         int range = 100;
         int roll;
+
+        Song song;
 
         #endregion
 
@@ -62,6 +66,10 @@ namespace VideoGameSemester.GameScreens
 
         protected override void LoadContent()
         {
+            ContentManager Content = GameRef.Content;
+
+            song = Content.Load<Song>(@"Music\Darkened Winds");
+            MediaPlayer.Play(song);
             base.LoadContent();
 
         }
@@ -80,6 +88,7 @@ namespace VideoGameSemester.GameScreens
                     Transition(ChangeType.Push, GameRef.CombatScreen);
                 }
             }
+
 
             base.Update(gameTime);
         }

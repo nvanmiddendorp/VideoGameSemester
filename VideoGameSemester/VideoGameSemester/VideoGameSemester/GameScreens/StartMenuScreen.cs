@@ -15,11 +15,14 @@ namespace VideoGameSemester.GameScreens
     {
         #region Field region
 
-        PictureBox backgroundImage;
+        Texture2D backgroundImage;
         PictureBox arrowImage;
+        Texture2D textBoxTitle;
         LinkLabel startGame;
         LinkLabel exitGame;
         Label titleLabel;
+        Rectangle textBoxTitleRectangle;
+        Rectangle textBoxEnterRectangle;
         float maxItemWidth = 0f;
 
         #endregion
@@ -49,10 +52,8 @@ namespace VideoGameSemester.GameScreens
 
             ContentManager Content = Game.Content;
 
-            backgroundImage = new PictureBox(
-                Content.Load<Texture2D>(@"Backgrounds\Resources\Tower2"),
-                GameRef.ScreenRectangle);
-            ControlManager.Add(backgroundImage);
+            backgroundImage = Content.Load<Texture2D>(@"Backgrounds\Resources\Tower2");
+            textBoxTitle = Content.Load<Texture2D>(@"GUI\textbox");
 
             titleLabel = new Label();
             titleLabel.Position = new Vector2(GameRef.ScreenRectangle.Width / 2 - 295, 100);
@@ -62,6 +63,9 @@ namespace VideoGameSemester.GameScreens
             titleLabel.HasFocus = false;
 
             ControlManager.Add(titleLabel);
+
+            textBoxTitleRectangle = new Rectangle((GameRef.ScreenRectangle.Width) - (GameRef.ScreenRectangle.Width), 100, GameRef.ScreenRectangle.Width, 40);
+            textBoxEnterRectangle = new Rectangle((GameRef.ScreenRectangle.Width / 2) - (GameRef.ScreenRectangle.Width / 4), (GameRef.ScreenRectangle.Height / 2) + 140, (GameRef.ScreenRectangle.Width / 2), 90);
 
             Texture2D arrowTexture = Content.Load<Texture2D>(@"GUI\leftarrowUp");
 
@@ -92,7 +96,7 @@ namespace VideoGameSemester.GameScreens
 
             ControlManager.FocusChanged += new EventHandler(ControlManager_FocusChanged);
 
-            Vector2 position = new Vector2(350, 500);
+            Vector2 position = new Vector2((GameRef.ScreenRectangle.Width / 2) - 130, (GameRef.ScreenRectangle.Height / 2) + (GameRef.ScreenRectangle.Height / 4) - 50);
             foreach (Control c in ControlManager)
             {
                 if (c is LinkLabel)
@@ -136,6 +140,21 @@ namespace VideoGameSemester.GameScreens
             GameRef.SpriteBatch.Begin();
 
             base.Draw(gameTime);
+
+            GameRef.SpriteBatch.Draw(
+                backgroundImage,
+                GameRef.ScreenRectangle,
+                Color.Snow);
+
+            GameRef.SpriteBatch.Draw(
+                textBoxTitle,
+                textBoxTitleRectangle,
+                Color.Snow);
+
+            GameRef.SpriteBatch.Draw(
+                textBoxTitle,
+                textBoxEnterRectangle,
+                Color.Snow);
 
             ControlManager.Draw(GameRef.SpriteBatch);
 

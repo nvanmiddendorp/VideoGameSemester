@@ -2728,6 +2728,36 @@
       <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Game\Monsters\Ghost.xnb</Output>
       <Time>2014-11-27T20:14:28.5197606-06:00</Time>
     </Item>
+    <Item>
+      <Source>Music\Dungeon9.mp3</Source>
+      <Name>Music\Dungeon9</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Dungeon9.xnb</Output>
+      <Extra>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Dungeon9.wma</Extra>
+      <Time>2014-11-29T19:09:54.3152615-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\Battle3.mp3</Source>
+      <Name>Music\Battle3</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Battle3.xnb</Output>
+      <Extra>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Battle3.wma</Extra>
+      <Time>2014-11-29T19:15:40.7764792-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\Darkened Winds.mp3</Source>
+      <Name>Music\Darkened Winds</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Darkened Winds.xnb</Output>
+      <Extra>C:\Users\Neil\Documents\GitHub\VideoGameSemester\VideoGameSemester\VideoGameSemester\VideoGameSemester\bin\x86\Debug\Content\Music\Darkened Winds.wma</Extra>
+      <Time>2014-11-29T19:18:23.3034355-06:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{A39A9A8F-EDC5-4272-B510-A460D5103F7D}</ContentProjectGUID>

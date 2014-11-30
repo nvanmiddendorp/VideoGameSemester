@@ -301,3 +301,9 @@ Content\Game\Levels\Starting Level.xnb
 Content\Game\Levels\Maps\Village.xnb
 Content\Game\Classes\Neil.xnb
 Content\Game\Monsters\Ghost.xnb
+Content\Music\Dungeon9.xnb
+Content\Music\Dungeon9.wma
+Content\Music\Battle3.xnb
+Content\Music\Battle3.wma
+Content\Music\Darkened Winds.xnb
+Content\Music\Darkened Winds.wma

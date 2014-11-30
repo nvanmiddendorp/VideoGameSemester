@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using FunctionalityLib;
 using FunctionalityLib.TileEngine;
 using FunctionalityLib.SpriteClasses;
@@ -34,6 +35,7 @@ namespace VideoGameSemester.GameScreens
         Label enemyHP;
         Label combatMessage;
         Label queBoxText;
+        Song song;
 
         Queue<string> combatQue;
 
@@ -69,6 +71,8 @@ namespace VideoGameSemester.GameScreens
         protected override void LoadContent()
         {
             ContentManager Content = GameRef.Content;
+
+            song = Content.Load<Song>(@"Music\Battle3");
 
             base.LoadContent();
             combatQue = new Queue<string>();
@@ -237,6 +241,7 @@ namespace VideoGameSemester.GameScreens
         public void Begin()
         {
             battleBegin = false;
+            MediaPlayer.Play(song);
 
             Dictionary<AnimationKey, Animation> animations = new Dictionary<AnimationKey, Animation>();
             monsterImage = Game.Content.Load<Texture2D>(@"Monsters\Monster1");

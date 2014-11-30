@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Media;
 using FunctionalityLib;
 using FunctionalityLib.Controls;
 
@@ -21,6 +22,7 @@ namespace VideoGameSemester.GameScreens
         Rectangle textBoxEnterRectangle;
         LinkLabel startLabel;
         Label titleLabel;
+        Song song;
 
         #endregion
 
@@ -38,6 +40,9 @@ namespace VideoGameSemester.GameScreens
         protected override void LoadContent()
         {
             ContentManager Content = GameRef.Content;
+
+            song = Content.Load<Song>(@"Music\Dungeon9");
+            MediaPlayer.Play(song);
 
             base.LoadContent();
 
