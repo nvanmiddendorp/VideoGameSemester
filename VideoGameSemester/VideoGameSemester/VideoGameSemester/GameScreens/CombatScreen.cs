@@ -28,16 +28,14 @@ namespace VideoGameSemester.GameScreens
         Texture2D textBox;
         Rectangle statusBoxRectangle;
         Rectangle combatMessageRectangle;
-        Rectangle queBoxRectangle;
         LinkLabel attackLabel;
         LinkLabel winLabel;
         Label playerHP;
         Label enemyHP;
         Label combatMessage;
-        Label queBoxText;
         Song song;
 
-        Queue<string> combatQue;
+        Queue<string> combatLog;
 
         Entity monsterFromData;
         Monster monster;
@@ -75,15 +73,14 @@ namespace VideoGameSemester.GameScreens
             song = Content.Load<Song>(@"Music\Battle3");
 
             base.LoadContent();
-            combatQue = new Queue<string>();
+            combatLog = new Queue<string>();
             Begin();
 
             backgroundImageBackground = Content.Load<Texture2D>(@"Backgrounds\Battlebacks Background\Grassland");
             backgroundImageForeground = Content.Load<Texture2D>(@"Backgrounds\Battlebacks Foreground\Meadow");
             textBox = Content.Load<Texture2D>(@"GUI\textbox");
             statusBoxRectangle = new Rectangle(0, 650, GameRef.ScreenRectangle.Width, GameRef.ScreenRectangle.Height - 650);
-            combatMessageRectangle = new Rectangle((GameRef.ScreenRectangle.Width) - (GameRef.ScreenRectangle.Width), 0, GameRef.ScreenRectangle.Width, 40);
-            queBoxRectangle = new Rectangle(GameRef.ScreenRectangle.Width - 100, 45, 95, 200);
+            combatMessageRectangle = new Rectangle((GameRef.ScreenRectangle.Width) - (GameRef.ScreenRectangle.Width), 0, GameRef.ScreenRectangle.Width, 80);
 
             playerHP = new Label();
             playerHP.Position = new Vector2(950, 670);
@@ -101,7 +98,8 @@ namespace VideoGameSemester.GameScreens
 
             combatMessage = new Label();
             combatMessage.Text = "";
-            combatMessage.Position = new Vector2((GameRef.ScreenRectangle.Width / 2) - 150 , 0);          
+            combatMessage.Position = new Vector2((GameRef.ScreenRectangle.Width / 2) - 230 , 0);     
+
             combatMessage.Color = Color.White;
             combatMessage.TabStop = false;
             combatMessage.HasFocus = false;
@@ -121,21 +119,12 @@ namespace VideoGameSemester.GameScreens
             winLabel.TabStop = true;
             winLabel.HasFocus = true;
             winLabel.Visible = false;
-            winLabel.Selected += new EventHandler(winLabel_Selected);
-
-            queBoxText = new Label();
-            queBoxText.Text = "";
-            queBoxText.Position = new Vector2(GameRef.ScreenRectangle.Width - 90, 45);
-            queBoxText.Color = Color.White;
-            queBoxText.TabStop = false;
-            queBoxText.HasFocus = false;          
+            winLabel.Selected += new EventHandler(winLabel_Selected);     
 
             ControlManager.Add(attackLabel);
             ControlManager.Add(playerHP);
-            ControlManager.Add(enemyHP);
             ControlManager.Add(winLabel);
             ControlManager.Add(combatMessage);
-            ControlManager.Add(queBoxText);
         }
 
         protected override void UnloadContent()
@@ -145,6 +134,8 @@ namespace VideoGameSemester.GameScreens
 
         public override void Update(GameTime gameTime)
         {
+            string combatLog = string.Empty;
+
             if (battleBegin == true)
             {
                 Begin();
@@ -166,15 +157,13 @@ namespace VideoGameSemester.GameScreens
                 winLabel.TabStop = false;
             }
 
-            queBoxText.Text = getCombatQueText();
-
             if(playerSelectedAction == true)
             {
                 playerSelectedAction = false;
                 preformAttack(gameTime);
+                combatMessage.Text = getCombatLogText();
             }
 
-            combatMessage.Text = getCombatMessage();
             playerHP.Text = GamePlayScreen.Player.Character.Entity.Health.CurrentValue + "";
             enemyHP.Text = monster.Entity.Health.CurrentValue + "";
 
@@ -208,11 +197,6 @@ namespace VideoGameSemester.GameScreens
                 combatMessageRectangle,
                 Color.White * 0.65f);
 
-            GameRef.SpriteBatch.Draw(
-                textBox,
-                queBoxRectangle,
-                Color.White * 0.65f);
-
             ControlManager.Draw(GameRef.SpriteBatch);
             GamePlayScreen.Player.Sprite.Draw(gameTime, GameRef.SpriteBatch);
             monster.Sprite.Draw(gameTime, GameRef.SpriteBatch);
@@ -242,6 +226,7 @@ namespace VideoGameSemester.GameScreens
         {
             battleBegin = false;
             MediaPlayer.Play(song);
+            combatLog.Clear();
 
             Dictionary<AnimationKey, Animation> animations = new Dictionary<AnimationKey, Animation>();
             monsterImage = Game.Content.Load<Texture2D>(@"Monsters\Monster1");
@@ -283,25 +268,13 @@ namespace VideoGameSemester.GameScreens
 
             GamePlayScreen.Player.Sprite.CurrentAnimation = AnimationKey.Left;
             monster.Sprite.CurrentAnimation = AnimationKey.Right;
-
-            for (int i = 0; i < 5; i++)
-            {
-                if (i % 2 == 0)
-                {
-                    combatQue.Enqueue(GamePlayScreen.Player.Character.Entity.EntityName);
-                }
-                else
-                {
-                    combatQue.Enqueue(monster.Entity.EntityName);
-                }
-            }
         }
 
-        private string getCombatQueText()
+        private string getCombatLogText()
         {
             string combatQueText = string.Empty;
 
-            foreach(string s in combatQue)
+            foreach(string s in combatLog)
             {
                 combatQueText += s + "\n";
             }
@@ -313,32 +286,15 @@ namespace VideoGameSemester.GameScreens
         {
             monster.Entity.Health.Damage(50);
 
-            timetoDelayCombat = 4.0f;
+            combatLog.Clear();
 
-            while(timetoDelayCombat >= 0)
-            {
-                updateCombatMessage(GamePlayScreen.Player.Character.Entity.EntityName + " hits " + monster.Entity.EntityName + " for 50 damage!");
-                timetoDelayCombat -= (float)gameTime.ElapsedGameTime.TotalSeconds;
-            }
+            combatLog.Enqueue(GamePlayScreen.Player.Character.Entity.EntityName + " hits " + monster.Entity.EntityName + " for 50 damage!");
+            timetoDelayCombat -= (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             GamePlayScreen.Player.Character.Entity.Health.Damage(50);
-            timetoDelayCombat = 4.0f;
 
-            while (timetoDelayCombat >= 0)
-            {
-                updateCombatMessage(monster.Entity.EntityName + " hits " + GamePlayScreen.Player.Character.Entity.EntityName + " for 50 damage!");
-                timetoDelayCombat -= (float)gameTime.ElapsedGameTime.TotalSeconds;
-            }
-        }
-
-        private void updateCombatMessage(string message)
-        {
-            combatMessage.Text = message;
-        }
-
-        private string getCombatMessage()
-        {
-            return combatMessage.Text;
+            combatLog.Enqueue(monster.Entity.EntityName + " hits " + GamePlayScreen.Player.Character.Entity.EntityName + " for 50 damage!");
+            timetoDelayCombat -= (float)gameTime.ElapsedGameTime.TotalSeconds;
         }
       
         #endregion
